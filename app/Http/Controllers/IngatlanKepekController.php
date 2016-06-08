@@ -1,0 +1,169 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\IngatlanKepek;
+
+use App\utils\CommonFunction;
+use App\utils\QueryBuilder;
+use Illuminate\Support\Facades\Storage;
+
+
+use Illuminate\Http\Request;
+
+//use App\Http\Requests;
+USE App\Http\Requests\CreateIngatlanKepekRequest;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Route;
+
+
+class IngatlanKepekController extends Controller
+{
+    private $_kepmeret = [
+        [
+            'nev' => 'kicsi',
+            'meret' => 150
+        ],
+        [
+            'nev' => 'kozepes',
+            'meret' => 600
+        ],
+        [
+            'nev' => 'nagy',
+            'meret' => 1240
+        ]
+
+    ];
+
+    public function show($id)
+    {
+        $ingatlan = new IngatlanKepek();
+        return $ingatlan->customFind($id);
+    }
+
+    public function listWithFilters($query)
+    {
+
+        $ingatlanKepek = new IngatlanKepek();
+
+
+        $qb = new QueryBuilder();
+        $qb->createQueryFields($query, $ingatlanKepek->getTable());
+        $response = $qb->getResponse();
+        foreach ($response as $r) {
+            $r->paths=$ingatlanKepek->customFind($r->id)->paths;
+        }
+
+        return $response;
+
+    }
+
+    public function store(CreateIngatlanKepekRequest $request)
+    {
+        $kepek = new IngatlanKepek();
+        $count = $kepek->where('ingatlan_id', $request->ingatlan_id)->where('archived', 'false')->count();
+        $values = $request->all();
+        $fileName = $this->setName($request);
+        $newkep = IngatlanKepek::create($values);
+        $newkep->name = $fileName;
+        $newkep->file = $fileName;
+        $newkep->pos = $count;
+        $newkep->save();
+        $mainDir = $this->createPaths($newkep->id);
+        //  file_put_contents('hunk2.log', print_r($_FILES, true));
+
+        if ($newkep) {
+            $currentPath = env('HOST_URL', 'forge');
+            $tmpfilePath = 'storage/app/tmp';
+            if (Input::file('file')->isValid()) {
+
+                // file_put_contents ( 'hunk2.log' ,$mainDir.'/'.$fileName );
+                Input::file('file')->move($mainDir, $fileName);
+                $this->saveKepek($mainDir, $fileName);
+            }
+            // $fileName = CommonFunction::hungarianToEnglishConvert($newkep->name);
+
+
+        }
+        return response()->json(['upload' => 'sikeres', 'URL:' => $currentPath]);
+    }
+
+    private function setName($request)
+    {
+        // file_put_contents ( 'hunk2.log' ,print_r($_FILES,true) );
+        $extension = \Illuminate\Support\Facades\File::extension($_FILES['file']['name']);
+        $name = ($request->name && $request->name != 'undefined') ? CommonFunction::hungarianToEnglishConvert($request->name) . '.' . $extension : CommonFunction::hungarianToEnglishConvert($_FILES['file']['name']);
+
+
+        return $name;
+
+    }
+
+    private function createPaths($picId)
+    {
+        $mainDir = 'ingatlankepek/' . $picId;
+
+        foreach (IngatlanKepek::$kepmeretek as $meret) {
+            Storage::makeDirectory($mainDir . '/' . $meret['nev']);
+
+        }
+        return 'storage/app/' . $mainDir;
+
+
+    }
+
+    private function saveKepek($path, $file)
+    {
+
+        list($width, $height) = getimagesize($path . '/' . $file);
+        foreach (IngatlanKepek::$kepmeretek as $meret) {
+            $newHeight = 0;
+            $newWidth = 0;
+            if (IngatlanKepek::$meretAzonossag == 'width') {
+                $ratio = round(($meret['meret'] / $width) * 100);
+                $newHeight = round($height * $ratio / 100);
+                $newWidth = $meret['meret'];
+
+            } elseif (IngatlanKepek::$meretAzonossag == 'height') {
+                $ratio = round(($meret['meret'] / $height) * 100);
+                $newWidth = round($width * $ratio / 100);
+                $newHeight = $meret['meret'];
+
+            }
+            $cmd = "convert  -limit thread 1 -colorspace RGB " . $path . "/" . $file . " -resize " . $newWidth . "x" . $newHeight . "! " . $path . "/" . $meret['nev'] . "/" . $file;
+            system($cmd);
+        }
+
+
+    }
+
+
+    public function update(CreateIngatlanKepekRequest $request, $id)
+    {
+
+        $Item = IngatlanKepek::find($id);
+        //   if (!$Item)return Message::getMessage('ItemNotFound');
+        file_put_contents('hunk1.log', print_r($Item,true) . ', ' . $Item->pos);
+        if ($request->pos != $Item->pos) {
+            $ingatlanKep = new IngatlanKepek();
+            $elozoApozicion = $ingatlanKep->where('pos', $request->pos)->where('ingatlan_id', $request->ingatlan_id)->first();
+            $elozoApozicion->pos = $Item->pos;
+            $elozoApozicion->push();
+        }
+
+        $Item->fill($request->all());
+        $Item->push();
+
+
+        return response()->json($Item);
+    }
+
+    public function archive($id)
+    {
+        $Item = IngatlanKepek::find($id);
+        //   if (!$Item) return Message::getMessage('ItemNotFound');
+        $Item->archive();
+        return response()->json(['msg' => 'Arhiválás sikeres', 'termekkeép' => $Item]);
+    }
+
+}
