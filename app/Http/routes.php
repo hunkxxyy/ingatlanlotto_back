@@ -27,8 +27,8 @@ Route::get('/register',function(){$user = new App\User();
     $user->save();
 });
 
-Route::get('api/git/clone','IngatlanController@clone');
-Route::get('api/git/pull','IngatlanController@pull');
+Route::get('git/clone','GitController@clone');
+Route::get('git/pull','GitController@pull');
 
 /*-------------------------------- INGATLADB --------------------------------------*/
 Route::get('api/ingatlans/{query}','IngatlanController@listWithFilters');
