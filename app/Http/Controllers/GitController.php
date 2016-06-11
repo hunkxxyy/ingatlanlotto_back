@@ -14,6 +14,7 @@ class GitController extends Controller
     }
     public function pull(){
         $cmd="git pull origin master";
+        //hunk
         system($cmd);
     }
 }
