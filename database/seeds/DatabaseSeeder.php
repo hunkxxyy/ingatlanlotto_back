@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call('userSeed');
-       // $this->call('oauth2Clients');
+        $this->call('oauth2Clients');
         $this->call('szintekSeed');
         $this->call('modulsSeed');
         $this->call('globalSeeds');

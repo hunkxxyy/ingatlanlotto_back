@@ -19,7 +19,13 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('old_password');
+            $table->string('cim_irsz');
+            $table->string('cim_varos');
+            $table->string('cim_cim');
+            $table->string('cim_telefon');
+
             $table->rememberToken();
+            $table->boolean('archived')->default(0);
             $table->timestamps();
         });
     }

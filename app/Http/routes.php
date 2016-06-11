@@ -27,8 +27,24 @@ Route::get('/register',function(){$user = new App\User();
     $user->save();
 });
 
+Route::get('register/admin',function(){$user = new App\User();
+    $user->name="admin";
+    $user->email="admin@gmail.com";
+    $user->password = \Illuminate\Support\Facades\Hash::make("jelszó");
+    $user->save();
+});
+
+
+
 
 Route::get('git/pull','GitController@pull');
+
+/*-------------------------------- USER --------------------------------------*/
+Route::get('api/users/{query}','UserController@listWithFilters');
+Route::get('api/user/{id}','UserController@show');
+Route::post('api/user/','UserController@store');
+Route::put('api/user/modify/{id}','UserController@update');
+Route::put('api/user/archive/{id}','UserController@archive');
 
 /*-------------------------------- INGATLADB --------------------------------------*/
 Route::get('api/ingatlans/{query}','IngatlanController@listWithFilters');

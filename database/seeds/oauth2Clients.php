@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use Illuminate\Support\Facades;
 class oauth2Clients extends Seeder
 {
     /**
@@ -11,12 +11,27 @@ class oauth2Clients extends Seeder
      */
     public function run()
     {
-      //  DB::table('oauth_clients')->truncate();
-        DB::table('oauth_clients')->insert([
-            'id'=>'1',
-            'secret'=>'hunk',
-            'name'=>'hunk74@gmail.com'
-        ]);
+        DB::table('oauth_clients')->truncate();
+        $clients=[
+            [
+                'name'=>'hunk',
+                'secret'=>'Editke76']
+            ,[
+                'name'=>'winner',
+                'secret'=>'winnerPassword2016']
+
+        ];
+
+            $i=0;
+        foreach ($clients as $c) {
+            $i++;
+            DB::table('oauth_clients')->insert([
+                'id'=>$i,
+               'secret'=>\Illuminate\Support\Facades\Hash::make($c['secret']),
+                'name'=>$c['name']
+            ]);
+
+        }
 
 
 
