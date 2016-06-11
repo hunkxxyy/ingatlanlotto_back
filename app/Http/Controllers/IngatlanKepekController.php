@@ -6,6 +6,7 @@ use App\IngatlanKepek;
 
 use App\utils\CommonFunction;
 use App\utils\QueryBuilder;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 
 
@@ -15,6 +16,7 @@ use Illuminate\Http\Request;
 USE App\Http\Requests\CreateIngatlanKepekRequest;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Contracts\Filesystem\Filesystem;
 
 
 class IngatlanKepekController extends Controller
@@ -102,16 +104,36 @@ class IngatlanKepekController extends Controller
     private function createPaths($picId)
     {
         $mainDir = 'ingatlankepek/' . $picId;
-
         foreach (IngatlanKepek::$kepmeretek as $meret) {
-            Storage::makeDirectory($mainDir . '/' . $meret['nev']);
+            $dir= $mainDir . '/' . $meret['nev'];
+           File::makeDirectory($dir, 0777,true,true);
+           chmod($dir, 0777);
 
         }
-        return 'storage/app/' . $mainDir;
+        return  $mainDir;
 
 
     }
+    public function makedir()
+    {
 
+        /*    Storage::makeDirectory('teszt1/' , 0777);
+            File::makeDirectory( 'ingatlankepek/1974/kicsi' , 0777,true,true);
+        chmod('../storage/appp/teszt1', 0777);*/
+        $mainDir = 'ingatlankepek/1974';
+        foreach (IngatlanKepek::$kepmeretek as $meret) {
+            $dir= $mainDir . '/' . $meret['nev'];
+            print $dir;
+            File::makeDirectory($dir , 0777,true,true);
+            chmod($dir, 0777);
+
+        }
+
+      /*  $fs=new Filesystem();
+        $fs->makeDirectory('teszt3');*/
+
+
+    }
     private function saveKepek($path, $file)
     {
 

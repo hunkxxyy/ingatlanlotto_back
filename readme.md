@@ -1,7 +1,7 @@
-# Laravel PHP Framework for BillCyty.
+# Laravel PHP Framework
 Includes:
 Oauth2 authorization
 CORS ready .httacces
 DbConnection: postGresql.
 
-Created by: Izsó István
+Created by: Hunk

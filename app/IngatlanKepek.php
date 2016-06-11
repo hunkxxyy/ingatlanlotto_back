@@ -26,7 +26,7 @@ class IngatlanKepek extends Model
     //---------------------------------------//
     protected $table = 'ingatlan_kepek';
     protected $fillable = ['ingatlan_id', 'name', 'pos', 'file'];
-    public $stroageRoot = 'storage/app/';
+    public $stroageRoot = '/';
     public $stroageName = 'ingatlankepek';
 
 

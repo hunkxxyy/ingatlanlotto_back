@@ -36,7 +36,9 @@ Route::put('api/ingatlan/modify/{id}','IngatlanController@update');
 Route::put('api/ingatlan/archive/{id}','IngatlanController@archive');
 
 /*-------------------------------- INGATLADB --------------------------------------*/
+
 Route::get('api/ingatlan_kepeks/{query}','IngatlanKepekController@listWithFilters');
+Route::get('api/ingatlan_kepek/dir/','IngatlanKepekController@makedir');
 Route::get('api/ingatlan_kepek/{id}','IngatlanKepekController@show');
 Route::post('api/ingatlan_kepek/','IngatlanKepekController@store');
 Route::put('api/ingatlan_kepek/modify/{id}','IngatlanKepekController@update');
