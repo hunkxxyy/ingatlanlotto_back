@@ -13,5 +13,6 @@ class GitController extends Controller
         $cmd="git pull origin master";
         //hunk
         system($cmd);
+        print 'Áthúzva sikeresen';
     }
 }
