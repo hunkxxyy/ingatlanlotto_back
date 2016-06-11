@@ -27,7 +27,7 @@ Route::get('/register',function(){$user = new App\User();
     $user->save();
 });
 
-Route::get('git/clone','GitController@clone');
+
 Route::get('git/pull','GitController@pull');
 
 /*-------------------------------- INGATLADB --------------------------------------*/
