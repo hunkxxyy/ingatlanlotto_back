@@ -91,6 +91,7 @@ class PasswordGrant extends AbstractGrant
     {
         // Get the required params
         $clientId = $this->server->getRequest()->request->get('client_id', $this->server->getRequest()->getUser());
+
         if (is_null($clientId)) {
             throw new Exception\InvalidRequestException('client_id');
         }

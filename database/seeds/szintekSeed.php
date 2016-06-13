@@ -104,6 +104,13 @@ class szintekSeed extends Seeder
                 'link'=>'admin/ingatlanok',
                 'tipus'=>'3',
                 'pos'=>'1'
+            ] ,
+            [
+                'parent'=>'11',
+                'nev'=>'Felhasználók',
+                'link'=>'admin/users',
+                'tipus'=>'3',
+                'pos'=>'1'
             ]
         ];
         DB::table('szintek')->truncate();

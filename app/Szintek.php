@@ -9,7 +9,7 @@ class Szintek extends Model
 {
     protected $table = 'szintek';
 
-    public function getMenu()
+    public function getMenu($user='')
     {
         $menuArr[] = [
             'caption' => 'Ingatlanok',
@@ -25,8 +25,13 @@ class Szintek extends Model
             ]]
         ];
 
-        $meus = $this->where('parent', '=', '2')->get();
-        foreach ($meus as $menu) {
+        $query=DB::table($this->table);
+        $query->where('parent', '2');
+        if ($user!='admin')
+            $query->where('id','!=', '11'); //admin menüpont
+        $menus=$query->get();
+
+        foreach ($menus as $menu) {
 
             $menuArr[] = [
                 'caption' => $menu->nev,

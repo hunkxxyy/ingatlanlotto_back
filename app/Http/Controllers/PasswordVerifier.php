@@ -15,6 +15,7 @@ class PasswordVerifier extends Controller
             'email'=>$userName,
             'password'=>$password,
         ];
+
         if (Auth::once($credentials)){
             return Auth::user()->id;
         }

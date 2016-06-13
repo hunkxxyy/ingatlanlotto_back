@@ -12,7 +12,11 @@ USE App\Http\Requests\CreateIngatlanRequest;
 class IngatlanController extends Controller
 {
 
+    public function __construct()
+    {
 
+        $this->middleware('oauth',['except'=>['show','listWithFilters']]);
+    }
     public function show($id)
     {
         $kepek=new IngatlanKepek();

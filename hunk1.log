@@ -9,7 +9,7 @@ App\IngatlanKepek Object
             [3] => file
         )
 
-    [stroageRoot] => storage/app/
+    [stroageRoot] => /
     [stroageName] => ingatlankepek
     [connection:protected] => 
     [primaryKey:protected] => id
@@ -18,26 +18,26 @@ App\IngatlanKepek Object
     [timestamps] => 1
     [attributes:protected] => Array
         (
-            [id] => 7
-            [ingatlan_id] => 0
-            [name] => IMG_0006.JPG
-            [pos] => 3
-            [file] => IMG_0006.JPG
+            [id] => 1
+            [ingatlan_id] => 3
+            [name] => Penguins.jpg
+            [pos] => 0
+            [file] => Penguins.jpg
             [archived] => 0
-            [created_at] => 2016-06-05 10:11:30
-            [updated_at] => 2016-06-05 10:11:30
+            [created_at] => 2016-06-13 17:07:14
+            [updated_at] => 2016-06-13 17:07:14
         )
 
     [original:protected] => Array
         (
-            [id] => 7
-            [ingatlan_id] => 0
-            [name] => IMG_0006.JPG
-            [pos] => 3
-            [file] => IMG_0006.JPG
+            [id] => 1
+            [ingatlan_id] => 3
+            [name] => Penguins.jpg
+            [pos] => 0
+            [file] => Penguins.jpg
             [archived] => 0
-            [created_at] => 2016-06-05 10:11:30
-            [updated_at] => 2016-06-05 10:11:30
+            [created_at] => 2016-06-13 17:07:14
+            [updated_at] => 2016-06-13 17:07:14
         )
 
     [relations:protected] => Array
@@ -86,4 +86,4 @@ App\IngatlanKepek Object
     [exists] => 1
     [wasRecentlyCreated] => 
 )
-, 3
+, 0

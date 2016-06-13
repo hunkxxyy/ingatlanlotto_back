@@ -1,24 +1,23 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
-|
-*/
+
 
 Route::get('/', function () {
     return view('welcome');
 });
 
+/*todo: Megjegyzés az oauth2vel kapcsolatban
+a client secret ssh titkosított ez okoz problémát. Figyelj rá*/
+
+
 Route::post('oauth/acces_token','Auth\Oauth2Controller@loginPost');
-Route::post('oauth/acces_token','Auth\Oauth2Controller@loginPost');
-//Route::resource('Szintek','SzintekController');
+Route::get('oauth/exit/','Auth\Oauth2Controller@destroy');
+
+
+
 Route::get('Szintek/menu','SzintekController@menu');
+Route::get('Szintek/menulogged','SzintekController@menuLogged');
+//Route::get('Szintek/menu/{token}','SzintekController@menu');
 Route::get('Szintek/tartalom/{szint_id}','SzintekController@tartalom');
 Route::get('/register',function(){$user = new App\User();
     $user->name="hunk";
