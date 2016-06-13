@@ -18,7 +18,7 @@ class oauth2Clients extends Seeder
                 'secret'=>'Editke76']
             ,[
                 'name'=>'winner',
-                'secret'=>'winnerPassword2016']
+                'secret'=>'winner']
 
         ];
 
@@ -27,7 +27,7 @@ class oauth2Clients extends Seeder
             $i++;
             DB::table('oauth_clients')->insert([
                 'id'=>$i,
-               'secret'=>\Illuminate\Support\Facades\Hash::make($c['secret']),
+               'secret'=>$c['secret'],
                 'name'=>$c['name']
             ]);
 
