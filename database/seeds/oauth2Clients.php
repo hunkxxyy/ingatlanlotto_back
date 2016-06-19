@@ -11,7 +11,7 @@ class oauth2Clients extends Seeder
      */
     public function run()
     {
-        DB::table('oauth_clients')->truncate();
+
         $clients=[
             [
                 'name'=>'hunk',

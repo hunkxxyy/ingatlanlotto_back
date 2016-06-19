@@ -13,7 +13,7 @@ class IngatlanKepekSeed extends Seeder
      */
     public function run()
     {
-        DB::table('ingatlan_kepek')->truncate();
+
         $faker = Faker::create();
         $piccCount=0;
         for ($i=1 ;$i<30 ;$i++)

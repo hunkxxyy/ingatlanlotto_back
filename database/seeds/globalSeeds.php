@@ -17,7 +17,7 @@ class globalSeeds extends Seeder
                 'value'=>'nincs beállítva',
             ]
         ];
-        DB::table('global_values')->truncate();
+
         foreach ($fields as $f)
         {
             DB::table('global_values')->insert($f);

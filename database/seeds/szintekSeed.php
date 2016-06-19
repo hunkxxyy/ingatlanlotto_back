@@ -113,7 +113,7 @@ class szintekSeed extends Seeder
                 'pos'=>'1'
             ]
         ];
-        DB::table('szintek')->truncate();
+
         foreach ($fields as $f)
         {
             DB::table('szintek')->insert($f);

@@ -14,7 +14,7 @@ class userSeed extends Seeder
     public function run()
     {
         $faker = Faker::create();
-        User::truncate();
+
         User::create([
 
             'name' => 'hunk',

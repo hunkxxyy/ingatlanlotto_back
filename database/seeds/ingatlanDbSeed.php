@@ -11,7 +11,7 @@ class ingatlanDbSeed extends Seeder
      */
     public function run()
     {
-        DB::table('ingatlandb')->truncate();
+
         $faker = Faker::create();
 
          for ($i=1 ;$i<30 ;$i++)

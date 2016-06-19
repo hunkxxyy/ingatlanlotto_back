@@ -51,7 +51,7 @@ a css file:php/php/moduls/htmleditor/design/online.css'
 
             ]
         ];
-        DB::table('moduls')->truncate();
+
         foreach ($fields as $f)
         {
             DB::table('moduls')->insert($f);
