@@ -40,12 +40,13 @@ class IngatlanController extends Controller
 
         foreach ($response as $ing) {
            // $this->getKep($ing);
-            $kepek=IngatlanKepek::where('ingatlan_id',$ing->id)->get();
+            //$kepek=IngatlanKepek::where('ingatlan_id',$ing->id)->get();
+            $kepek=IngatlanKepek::kepek($ing->id);
             $ing->kepek=$kepek;
-            if (isset($kepek[0]))
+           /* if (isset($kepek[0]))
              $ing->mainPic=$kepek[0]['file'];
             else
-                $ing->mainPic='"http://lorempixel.com/400/300/?72902"';
+                $ing->mainPic='"http://lorempixel.com/400/300/?72902"';*/
         }
         return $response;
 

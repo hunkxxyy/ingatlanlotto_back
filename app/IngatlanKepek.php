@@ -57,6 +57,15 @@ class IngatlanKepek extends Model
         return $paths;
     }
 
+    public static function kepek($id)
+    {
+        $kepek=IngatlanKepek::where('ingatlan_id',$id)->get();
+        foreach ($kepek as $k){
+            $k['file']='ingatlankepek/'.$k['id'].'/kozepes/'.$k['file'];
+        }
+        return $kepek;
+    }
+
     public function archive()
     {
         $this->archived = 1;

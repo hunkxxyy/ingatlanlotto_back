@@ -52,7 +52,7 @@ Route::post('api/ingatlan/','IngatlanController@store');
 Route::put('api/ingatlan/modify/{id}','IngatlanController@update');
 Route::put('api/ingatlan/archive/{id}','IngatlanController@archive');
 
-/*-------------------------------- INGATLADB --------------------------------------*/
+/*-------------------------------- INGATLANIngatlanKepek --------------------------------------*/
 
 Route::get('api/ingatlan_kepeks/{query}','IngatlanKepekController@listWithFilters');
 Route::get('api/ingatlan_kepek/dir/','IngatlanKepekController@makedir');

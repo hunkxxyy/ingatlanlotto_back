@@ -2,6 +2,8 @@
 
 use Illuminate\Database\Seeder;
 use Faker\Factory as Faker;
+use App\IngatlanKepek;
+use Illuminate\Contracts\Filesystem\Filesystem;
 class IngatlanKepekSeed extends Seeder
 {
     /**
@@ -13,25 +15,48 @@ class IngatlanKepekSeed extends Seeder
     {
         DB::table('ingatlan_kepek')->truncate();
         $faker = Faker::create();
-
-        /*for ($i=1 ;$i<50 ;$i++)
+        $piccCount=0;
+        for ($i=1 ;$i<30 ;$i++)
         {
-            for($m=1;$m<rand(2,9);$m++)
+            $pos=0;
+            for($m=1;$m<5;$m++)
             {
+
+                $pos++;
+                $piccCount++;
+                $this->createPaths($piccCount);
+                $file=$piccCount.'.jpg';
+                copy('ingatlankepek/tmpkepek/'.$piccCount.'.jpg', 'ingatlankepek/'.$piccCount.'/kozepes/'.$file);
                 DB::table('ingatlan_kepek')->insert([
 
                     'ingatlan_id' => $i,
                     'name' => $faker->word,
-                    'pos' => $i,
-                    'file' => $faker->imageUrl(400,300)
+                    'pos' => $pos,
+                    'file' => $file
 
 
 
                 ]);
 
+
             }
 
-        }*/
+        }
+
+    }
+    private function createPaths($picId)
+    {
+        $mainDir = 'ingatlankepek/' . $picId;
+
+        foreach (IngatlanKepek::$kepmeretek as $meret) {
+            $dir= $mainDir . '/' . $meret['nev'];
+
+            File::makeDirectory($dir, 0777,true,true);
+            chmod($dir, 0777);
+
+        }
+        return  $mainDir;
+
 
     }
 }
