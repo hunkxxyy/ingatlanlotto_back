@@ -35,6 +35,9 @@ class ingatlanDbSeed extends Seeder
                  'ingatlan_szobak'=>$faker->numberBetween(0,7),
                  'ingatlan_garazs'=>$faker->numberBetween(0,2),
                  'ingatlan_leiras'=>$faker->text,
+                 'ingatlan_ar'=>$faker->numberBetween(1000000,100000000),
+                 'sorsjegy_ar'=>$faker->numberBetween(10,100),
+
 
                  'ingatlan_kategoria' => 3
 

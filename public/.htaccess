@@ -1,5 +1,6 @@
 Header set Access-Control-Allow-Origin "http://winner.oxhungary.hu"
-Header set Access-Control-Allow-Origin "localhost:3000"
+Header set Access-Control-Allow-Origin "http://winner"
+Header set Access-Control-Allow-Origin "http://localhost:3000"
 Header set Access-Control-Allow-Credentials: true
 Header always set Access-Control-Max-Age "1000"
 Header always set Access-Control-Allow-Headers "X-Requested-With, Content-Type, Origin, Authorization, Accept, Client-Security-Token, Accept-Encoding"
@@ -11,6 +12,9 @@ Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS, DELETE, PUT"
     </IfModule>
 
     RewriteEngine On
+	
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
@@ -22,3 +26,4 @@ Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS, DELETE, PUT"
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+

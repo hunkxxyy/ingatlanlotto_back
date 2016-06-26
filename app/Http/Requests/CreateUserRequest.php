@@ -39,7 +39,10 @@ class CreateUserRequest extends Request
             }
             case 'PUT':
                 return [
+                    'name' => 'required',
 
+                    'password'  => 'min:6',
+                    'password2' => 'same:password',
 
 
                 ];

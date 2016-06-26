@@ -16,7 +16,7 @@ class PasswordVerifier extends Controller
             'email'=>$userName,
             'password'=>$password
         ];
-        file_put_contents('hunk3.log', print_r( $credentials, true));
+       // file_put_contents('hunk3.log', print_r( $credentials, true));
         if (Auth::once($credentials)){
 
             return Auth::user()->id;

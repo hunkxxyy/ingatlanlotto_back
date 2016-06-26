@@ -7,16 +7,30 @@ use App\UserKepek;
 use App\utils\QueryBuilder;
 use Illuminate\Http\Request;
 USE App\Http\Requests\CreateUserRequest;
+use LucaDegasperi\OAuth2Server\Facades\Authorizer;
 
 
 class UserController extends Controller
 {
 
+    public function __construct()
+    {
 
+        $this->middleware('oauth',['except'=>['store']]);
+    }
     public function show($id)
     {
 
         $User = User::find($id);
+
+
+        return $User;
+    }
+    public function showMyData()
+    {
+
+        $resourceOwnerId = Authorizer::getResourceOwnerId();
+        $User = User::find($resourceOwnerId);
 
 
         return $User;
@@ -62,6 +76,17 @@ class UserController extends Controller
         $User = User::find($id);
 
         $User->fill($request->all());
+        $User->push();
+        return response()->json($User);
+    }
+    public function updateCurrent(CreateUserRequest $request)
+    {
+        $values = $request->all();
+        $values['password']=\Illuminate\Support\Facades\Hash::make($values['password']);
+        $resourceOwnerId = Authorizer::getResourceOwnerId();
+        $User = User::find($resourceOwnerId);
+
+        $User->fill($values);
         $User->push();
         return response()->json($User);
     }

@@ -41,9 +41,12 @@ Route::get('git/pull','GitController@pull');
 /*-------------------------------- USER --------------------------------------*/
 Route::get('api/users/{query}','UserController@listWithFilters');
 Route::get('api/user/{id}','UserController@show');
+Route::get('api/currentuser/','UserController@showMyData');
 Route::post('api/user/','UserController@store');
 Route::put('api/user/modify/{id}','UserController@update');
+Route::put('api/currentuser/modify/','UserController@updateCurrent');
 Route::put('api/user/archive/{id}','UserController@archive');
+
 
 /*-------------------------------- INGATLADB --------------------------------------*/
 Route::get('api/ingatlans/{query}','IngatlanController@listWithFilters');
@@ -60,3 +63,8 @@ Route::get('api/ingatlan_kepek/{id}','IngatlanKepekController@show');
 Route::post('api/ingatlan_kepek/','IngatlanKepekController@store');
 Route::put('api/ingatlan_kepek/modify/{id}','IngatlanKepekController@update');
 Route::put('api/ingatlan_kepek/archive/{id}','IngatlanKepekController@archive');
+
+/*-------------------------------- INGATLANIngatlanKepek --------------------------------------*/
+
+Route::get('api/visited/','VisitedController@show');
+Route::post('api/visited/','VisitedController@store');

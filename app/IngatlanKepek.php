@@ -52,7 +52,8 @@ class IngatlanKepek extends Model
     {
         $paths = array();
         foreach (IngatlanKepek::$kepmeretek as $meret) {
-            $paths[$meret['nev']] = $this->stroageRoot . $this->stroageName . '/' . $kep->id . '/' . $meret['nev'] . '/' . $kep->file;
+            $longPath=$this->stroageRoot . $this->stroageName . '/' . $kep->id . '/' . $meret['nev'] . '/' . $kep->file;
+            $paths[$meret['nev']] = ltrim($longPath, '/');
         }
         return $paths;
     }

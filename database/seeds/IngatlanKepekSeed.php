@@ -26,7 +26,7 @@ class IngatlanKepekSeed extends Seeder
                 $piccCount++;
                 $this->createPaths($piccCount);
                 $file=$piccCount.'.jpg';
-                copy('ingatlankepek/tmpkepek/'.$piccCount.'.jpg', 'ingatlankepek/'.$piccCount.'/kozepes/'.$file);
+                copy('public/ingatlankepek/tmpkepek/'.$piccCount.'.jpg', 'ingatlankepek/'.$piccCount.'/kozepes/'.$file);
                 DB::table('ingatlan_kepek')->insert([
 
                     'ingatlan_id' => $i,

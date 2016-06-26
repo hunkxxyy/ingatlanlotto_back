@@ -30,6 +30,8 @@ class CreateIngatlanokTable extends Migration
             $table->integer('ingatlan_kategoria');
             $table->integer('ingatlan_szobak');
             $table->integer('ingatlan_garazs');
+            $table->integer('ingatlan_ar')->nullable();;
+            $table->integer('sorsjegy_ar')->nullable();
             $table->text('ingatlan_leiras');
 
             $table->boolean('archived')->default(false);

@@ -2,14 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b58bac4b-a8e7-4c37-ad5d-a8d25dde239e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/117/kozepes/117.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/118/kozepes/118.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/119/kozepes/119.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/120/kozepes/120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/121/kozepes/121.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/122/kozepes/122.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/123/kozepes/123.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/124/kozepes/124.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/125/kozepes/125.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/126/kozepes/126.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/127/kozepes/127.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/128/kozepes/128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/129/kozepes/129.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/88/Kep_41668997693594.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/88/kicsi/Kep_41668997693594.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/88/kozepes/Kep_41668997693594.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/88/nagy/Kep_41668997693594.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/101.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/102.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/103.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/104.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/105.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/106.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/107.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/108.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/109.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/110.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/111.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/112.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/113.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/114.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/115.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/116.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/117.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/118.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/119.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/121.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/122.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/123.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/124.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/125.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/126.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/127.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/129.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/44.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/45.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/46.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/47.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/48.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/49.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/51.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/52.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/53.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/54.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/56.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/57.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/58.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/59.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/60.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/61.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/62.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/63.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/64.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/65.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/66.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/67.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/68.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/69.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/70.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/71.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/72.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/73.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/75.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/76.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/77.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/78.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/79.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/81.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/82.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/83.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/84.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/85.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/86.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/87.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/88.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/89.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/90.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/91.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/92.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/93.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/94.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/95.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/96.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/97.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/98.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/tmpkepek/99.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PasswordVerifier.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PasswordVerifier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Ingatlan.php" afterPath="$PROJECT_DIR$/app/Ingatlan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/IngatlanKepek.php" afterPath="$PROJECT_DIR$/app/IngatlanKepek.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_05_28_104924_create_ingatlanok_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_05_28_104924_create_ingatlanok_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/IngatlanKepekSeed.php" afterPath="$PROJECT_DIR$/database/seeds/IngatlanKepekSeed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/globalSeeds.php" afterPath="$PROJECT_DIR$/database/seeds/globalSeeds.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/ingatlanDbSeed.php" afterPath="$PROJECT_DIR$/database/seeds/ingatlanDbSeed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/modulsSeed.php" afterPath="$PROJECT_DIR$/database/seeds/modulsSeed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/oauth2Clients.php" afterPath="$PROJECT_DIR$/database/seeds/oauth2Clients.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/szintekSeed.php" afterPath="$PROJECT_DIR$/database/seeds/szintekSeed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/userSeed.php" afterPath="$PROJECT_DIR$/database/seeds/userSeed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
     </list>
     <ignored path="ingatlanlotto_back.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,71 +182,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IngatlanController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.6470585">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016_05_28_104924_create_ingatlanok_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_104924_create_ingatlanok_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.970589">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="IngatlanKepekSeed.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/IngatlanKepekSeed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.147059">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modulsSeed.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/modulsSeed.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.294118">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oauth2Clients.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/oauth2Clients.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9117646">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="szintekSeed.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/szintekSeed.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-9.558824">
-              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userSeed.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/seeds/userSeed.php">
+      <file leaf-file-name="ingatlanDbSeed.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/ingatlanDbSeed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32795697">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.82289803">
+              <caret line="37" column="71" selection-start-line="37" selection-start-column="71" selection-end-line="37" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateUserRequest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php">
+      <file leaf-file-name="Ingatlan.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Ingatlan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.941177">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.235294">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state vertical-scroll-proportion="-8.088235">
+              <caret line="11" column="180" selection-start-line="11" selection-start-column="180" selection-end-line="11" selection-end-column="180" />
               <folding />
             </state>
           </provider>
@@ -105,27 +236,47 @@
         <entry file="file://$PROJECT_DIR$/database/seeds/globalSeeds.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-9.558824">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ingatlanDbSeed.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/ingatlanDbSeed.php">
+      <file leaf-file-name="oauth2Clients.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/oauth2Clients.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.147059">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <file leaf-file-name="szintekSeed.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/szintekSeed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.029411">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state vertical-scroll-proportion="-17.205883">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userSeed.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/userSeed.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.294118">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IngatlanKepek.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/IngatlanKepek.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -142,23 +293,32 @@
         <option value="$PROJECT_DIR$/app/Szintek.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SzintekController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PasswordVerifier.php" />
         <option value="$PROJECT_DIR$/hunk3.log" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/Oauth2Controller.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IngatlanController.php" />
-        <option value="$PROJECT_DIR$/app/IngatlanKepek.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/globalSeeds.php" />
-        <option value="$PROJECT_DIR$/database/seeds/ingatlanDbSeed.php" />
-        <option value="$PROJECT_DIR$/database/seeds/IngatlanKepekSeed.php" />
         <option value="$PROJECT_DIR$/database/seeds/modulsSeed.php" />
         <option value="$PROJECT_DIR$/database/seeds/oauth2Clients.php" />
         <option value="$PROJECT_DIR$/database/seeds/szintekSeed.php" />
         <option value="$PROJECT_DIR$/database/seeds/userSeed.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PasswordVerifier.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_06_24_185256_create_vizsgaltingatlanok_table.php" />
+        <option value="$PROJECT_DIR$/app/VizsgaltIngatlan.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_06_24_190434_create_visited_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_06_24_190603_create_visiteds_table.php" />
+        <option value="$PROJECT_DIR$/app/Visited.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/hunk2.log" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/VisitedController.php" />
+        <option value="$PROJECT_DIR$/app/IngatlanKepek.php" />
+        <option value="$PROJECT_DIR$/database/seeds/IngatlanKepekSeed.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Ingatlan.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_05_28_104924_create_ingatlanok_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/ingatlanDbSeed.php" />
       </list>
     </option>
   </component>
@@ -209,6 +369,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,10 +421,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ingatlanlotto_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ingatlanlotto_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ingatlanlotto_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ingatlanlotto_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ingatlanlotto_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ingatlanlotto_back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,7 +481,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="oau&#9;FILE&#9;file://C:/wamp64/www/ingatlanlotto/ingatlanlotto_back/config/oauth2.php&#10;oauth&#9;FILE&#9;file://C:/wamp64/www/ingatlanlotto/ingatlanlotto_back/app/Http/Controllers/Auth/Oauth2Controller.php" />
+    <property name="SearchEverywhereHistoryKey" value="route&#9;FILE&#9;file://C:/wamp64/www/ingatlanlotto/ingatlanlotto_back/app/Http/routes.php&#10;oau&#9;FILE&#9;file://C:/wamp64/www/ingatlanlotto/ingatlanlotto_back/config/oauth2.php&#10;oauth&#9;FILE&#9;file://C:/wamp64/www/ingatlanlotto/ingatlanlotto_back/app/Http/Controllers/Auth/Oauth2Controller.php" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -344,7 +554,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466329808398</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ligin_rules">
+      <created>1466329909612</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1466329909612</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -352,23 +568,23 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26385927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26918977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -396,64 +612,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/seeds/IngatlanKepekSeed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-          <folding>
-            <element signature="e#40#62#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/IngatlanKepek.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/Oauth2Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -480,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -503,9 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-          <folding>
-            <element signature="e#40#62#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,6 +667,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="30" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,24 +758,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SzintekController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.617647">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Oauth2Client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PasswordVerifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -661,73 +801,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ingatlankepek/4/kozepes/4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
+    <entry file="file://$PROJECT_DIR$/database/seeds/modulsSeed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-          <folding>
-            <element signature="e#40#62#0#PHP" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-10.294118">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/IngatlanKepek.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GitController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PasswordVerifier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.029411">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.941177">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_111202_create_ingatlan_kepek.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="18" column="79" selection-start-line="17" selection-start-column="12" selection-end-line="18" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_24_190603_create_visiteds_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.235294">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13392857">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Visited.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.882353">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SzintekController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2857143">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4642857">
+          <caret line="14" column="82" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hunk2.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VisitedController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/IngatlanKepek.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.6470585">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/userSeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.294118">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/szintekSeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.205883">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/oauth2Clients.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -735,55 +949,47 @@
     <entry file="file://$PROJECT_DIR$/database/seeds/globalSeeds.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.558824">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/ingatlanDbSeed.php">
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.147059">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.64285713">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Ingatlan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.088235">
+          <caret line="11" column="180" selection-start-line="11" selection-start-column="180" selection-end-line="11" selection-end-column="180" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/IngatlanKepekSeed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.147059">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/modulsSeed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.294118">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/oauth2Clients.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9117646">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/szintekSeed.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.558824">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/userSeed.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_28_104924_create_ingatlanok_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32795697">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state vertical-scroll-proportion="-13.970589">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ingatlanDbSeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82289803">
+          <caret line="37" column="71" selection-start-line="37" selection-start-column="71" selection-end-line="37" selection-end-column="71" />
           <folding />
         </state>
       </provider>
