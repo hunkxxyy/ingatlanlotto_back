@@ -1,126 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b58bac4b-a8e7-4c37-ad5d-a8d25dde239e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/1/kozepes/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/10/kozepes/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/100/kozepes/100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/101/kozepes/101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/102/kozepes/102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/103/kozepes/103.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/104/kozepes/104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/105/kozepes/105.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/106/kozepes/106.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/107/kozepes/107.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/108/kozepes/108.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/109/kozepes/109.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/11/kozepes/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/110/kozepes/110.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/111/kozepes/111.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/112/kozepes/112.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/113/kozepes/113.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/114/kozepes/114.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/115/kozepes/115.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/116/kozepes/116.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/12/kozepes/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/13/kozepes/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/14/kozepes/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/15/kozepes/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/16/kozepes/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/17/kozepes/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/18/kozepes/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/19/kozepes/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/2/kozepes/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/20/kozepes/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/21/kozepes/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/22/kozepes/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/23/kozepes/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/24/kozepes/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/25/kozepes/25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/26/kozepes/26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/27/kozepes/27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/28/kozepes/28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/29/kozepes/29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/3/kozepes/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/30/kozepes/30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/31/kozepes/31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/32/kozepes/32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/33/kozepes/33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/34/kozepes/34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/35/kozepes/35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/36/kozepes/36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/37/kozepes/37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/38/kozepes/38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/39/kozepes/39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/4/kozepes/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/40/kozepes/40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/41/kozepes/41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/42/kozepes/42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/43/kozepes/43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/44/kozepes/44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/45/kozepes/45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/46/kozepes/46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/47/kozepes/47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/48/kozepes/48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/49/kozepes/49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/5/kozepes/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/50/kozepes/50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/51/kozepes/51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/52/kozepes/52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/53/kozepes/53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/54/kozepes/54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/55/kozepes/55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/56/kozepes/56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/57/kozepes/57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/58/kozepes/58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/59/kozepes/59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/6/kozepes/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/60/kozepes/60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/61/kozepes/61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/62/kozepes/62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/63/kozepes/63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/64/kozepes/64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/65/kozepes/65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/66/kozepes/66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/67/kozepes/67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/68/kozepes/68.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/69/kozepes/69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/7/kozepes/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/70/kozepes/70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/71/kozepes/71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/72/kozepes/72.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/73/kozepes/73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/74/kozepes/74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/75/kozepes/75.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/76/kozepes/76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/77/kozepes/77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/78/kozepes/78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/79/kozepes/79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/8/kozepes/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/80/kozepes/80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/81/kozepes/81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/82/kozepes/82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/83/kozepes/83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/84/kozepes/84.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/85/kozepes/85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/86/kozepes/86.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/87/kozepes/87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/88/kozepes/88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/89/kozepes/89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/9/kozepes/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/90/kozepes/90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/91/kozepes/91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/92/kozepes/92.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/93/kozepes/93.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/94/kozepes/94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/95/kozepes/95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/96/kozepes/96.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/97/kozepes/97.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/98/kozepes/98.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ingatlankepek/99/kozepes/99.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/IngatlanController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/IngatlanController.php" />
-    </list>
+    <list default="true" id="b58bac4b-a8e7-4c37-ad5d-a8d25dde239e" name="Default" comment="" />
     <ignored path="ingatlanlotto_back.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -141,11 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IngatlanController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IngatlanController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62611806">
+            <state vertical-scroll-proportion="-10.294118">
               <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -216,16 +107,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userSeed.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/userSeed.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -437,25 +318,31 @@
       <option name="project" value="LOCAL" />
       <updated>1466329909612</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ligin_rules">
+      <created>1467237544184</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1467237544184</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.271855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -489,13 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/Oauth2Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -853,8 +733,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62611806">
+        <state vertical-scroll-proportion="-10.294118">
           <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
