@@ -23,7 +23,7 @@ class IngatlanController extends Controller
         $ingatlan = Ingatlan::find($id);
 
         $ingatlan->kepek=$kepek->ingatlanKepek($id);
-
+        $ingatlan->defaultImg=$ingatlan->kepek[0];
         return $ingatlan;
     }
 
@@ -43,6 +43,7 @@ class IngatlanController extends Controller
             //$kepek=IngatlanKepek::where('ingatlan_id',$ing->id)->get();
             $kepek=IngatlanKepek::kepek($ing->id);
             $ing->kepek=$kepek;
+
            /* if (isset($kepek[0]))
              $ing->mainPic=$kepek[0]['file'];
             else
