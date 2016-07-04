@@ -40,7 +40,7 @@ class IngatlanKepekController extends Controller
     public function __construct()
     {
 
-        $this->middleware('oauth',['except'=>['show','listWithFilters']]);
+      //  $this->middleware('oauth',['except'=>['show','listWithFilters']]);
     }
     public function show($id)
     {
