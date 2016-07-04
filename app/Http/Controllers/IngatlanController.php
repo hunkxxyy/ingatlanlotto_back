@@ -7,7 +7,7 @@ use App\IngatlanKepek;
 use App\utils\QueryBuilder;
 use Illuminate\Http\Request;
 USE App\Http\Requests\CreateIngatlanRequest;
-
+use Illuminate\Support\Facades\DB;
 
 class IngatlanController extends Controller
 {
@@ -21,7 +21,10 @@ class IngatlanController extends Controller
     {
         $kepek=new IngatlanKepek();
         $ingatlan = Ingatlan::find($id);
-
+        $ingatlan->kibocsajtott_sorsjegyek=ceil($ingatlan->ingatlan_ar/$ingatlan->sorsjegy_ar);
+        $ingatlan->megvasarolt_sorsjegyek=DB::table('licits')->where('ingatlan_id',$ingatlan->id)->count();
+        $ingatlan->fuggo_sorsjegyek='nincs kész';
+        $ingatlan->vasarolhato_sorsjegyek=$ingatlan->kibocsajtott_sorsjegyek-$ingatlan->megvasarolt_sorsjegyek;
         $ingatlan->kepek=$kepek->ingatlanKepek($id);
         $ingatlan->defaultImg=$ingatlan->kepek[0];
         return $ingatlan;
@@ -39,15 +42,11 @@ class IngatlanController extends Controller
        // $response[0]->kepek=
 
         foreach ($response as $ing) {
-           // $this->getKep($ing);
-            //$kepek=IngatlanKepek::where('ingatlan_id',$ing->id)->get();
+
             $kepek=IngatlanKepek::kepek($ing->id);
             $ing->kepek=$kepek;
+            $ing->kibocsajtott_sorsjegyek=ceil($ing->ingatlan_ar/$ing->sorsjegy_ar);
 
-           /* if (isset($kepek[0]))
-             $ing->mainPic=$kepek[0]['file'];
-            else
-                $ing->mainPic='"http://lorempixel.com/400/300/?72902"';*/
         }
         return $response;
 
@@ -58,6 +57,7 @@ class IngatlanController extends Controller
     public function store(CreateIngatlanRequest $request)
     {
         $values = $request->all();
+
 
         $newIngatlan = Ingatlan::create($values);
         $kepek=new IngatlanKepek();

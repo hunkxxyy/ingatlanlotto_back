@@ -64,7 +64,14 @@ Route::post('api/ingatlan_kepek/','IngatlanKepekController@store');
 Route::put('api/ingatlan_kepek/modify/{id}','IngatlanKepekController@update');
 Route::put('api/ingatlan_kepek/archive/{id}','IngatlanKepekController@archive');
 
-/*-------------------------------- INGATLANIngatlanKepek --------------------------------------*/
+/*-------------------------------- CheckVisiting --------------------------------------*/
 
 Route::get('api/visited/','VisitedController@show');
 Route::post('api/visited/','VisitedController@store');
+/*-------------------------------- LICIT --------------------------------------*/
+Route::get('api/licits/{query}','LicitController@listWithFilters');
+Route::get('api/licit/dir/','LicitController@makedir');
+Route::get('api/licit/{id}','LicitController@show');
+Route::post('api/licit/','LicitController@store');
+Route::put('api/licit/modify/{id}','LicitController@update');
+Route::put('api/licit/archive/{id}','LicitController@archive');

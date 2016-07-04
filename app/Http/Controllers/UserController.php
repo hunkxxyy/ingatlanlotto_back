@@ -46,6 +46,7 @@ class UserController extends Controller
         $qb->createQueryFields($query, $User->getTable());
 
         $response = $qb->getResponse();
+        if (isset($response[0]))
         foreach ($response as $user) {
 
             unset($user->password);

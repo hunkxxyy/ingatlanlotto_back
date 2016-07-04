@@ -16,6 +16,7 @@ class ingatlanDbSeed extends Seeder
 
          for ($i=1 ;$i<30 ;$i++)
          {
+             $ar=$faker->numberBetween(1000000,40000000);
              DB::table('ingatlandb')->insert([
 
                  'ingatlan_azoosito' => $i,
@@ -35,8 +36,8 @@ class ingatlanDbSeed extends Seeder
                  'ingatlan_szobak'=>$faker->numberBetween(0,7),
                  'ingatlan_garazs'=>$faker->numberBetween(0,2),
                  'ingatlan_leiras'=>$faker->text,
-                 'ingatlan_ar'=>$faker->numberBetween(1000000,100000000),
-                 'sorsjegy_ar'=>$faker->numberBetween(10,100),
+                 'ingatlan_ar'=>$ar,
+                 'sorsjegy_ar'=>$faker->numberBetween(5000,10000),
 
 
                  'ingatlan_kategoria' => 3

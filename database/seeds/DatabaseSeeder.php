@@ -30,5 +30,9 @@ class DatabaseSeeder extends Seeder
         $this->call('ingatlanDbSeed');
         $this->call('IngatlanKepekSeed');
 
+
+/*
+        DB::statement("TRUNCATE TABLE ingatlandb  ");
+        $this->call('ingatlanDbSeed');*/
     }
 }
