@@ -22,21 +22,7 @@ use Illuminate\Contracts\Filesystem\Filesystem;
 class IngatlanKepekController extends Controller
 {
 
-    private $_kepmeret = [
-        [
-            'nev' => 'kicsi',
-            'meret' => 150
-        ],
-        [
-            'nev' => 'kozepes',
-            'meret' => 600
-        ],
-        [
-            'nev' => 'nagy',
-            'meret' => 1240
-        ]
 
-    ];
     public function __construct()
     {
 
@@ -144,20 +130,10 @@ class IngatlanKepekController extends Controller
 
         list($width, $height) = getimagesize($path . '/' . $file);
         foreach (IngatlanKepek::$kepmeretek as $meret) {
-            $newHeight = 0;
-            $newWidth = 0;
-            if (IngatlanKepek::$meretAzonossag == 'width') {
-                $ratio = round(($meret['meret'] / $width) * 100);
-                $newHeight = round($height * $ratio / 100);
-                $newWidth = $meret['meret'];
-
-            } elseif (IngatlanKepek::$meretAzonossag == 'height') {
-                $ratio = round(($meret['meret'] / $height) * 100);
-                $newWidth = round($width * $ratio / 100);
-                $newHeight = $meret['meret'];
-
-            }
-            $cmd = "convert  -limit thread 1 -colorspace RGB " . $path . "/" . $file . " -resize " . $newWidth . "x" . $newHeight . "! " . $path . "/" . $meret['nev'] . "/" . $file;
+            $ratio=$width/$height;
+            $newWidth=$meret['meret']*$ratio;
+            $cmd = "convert  -limit thread 1 -colorspace RGB " . $path . "/" . $file . " -resize " . $newWidth . "x" .$meret['meret'] . "! " . $path . "/" . $meret['nev'] . "/" . $file;
+           file_put_contents('hunk2.log', $cmd);
             system($cmd);
         }
 

@@ -6,19 +6,20 @@ use Illuminate\Database\Eloquent\Model;
 
 class IngatlanKepek extends Model
 {
-    //ezek a képbeállítási globál paraméterek
+    /*ezek a képbeállítási globál paraméterek
+    minden méretszám a magasságot jelzi*/
     public static $kepmeretek = [
         [
             'nev' => 'kicsi',
-            'meret' => 220
+            'meret' => 100
         ],
         [
             'nev' => 'kozepes',
-            'meret' => 600
+            'meret' => 154
         ],
         [
             'nev' => 'nagy',
-            'meret' => 1240
+            'meret' => 460
         ]
 
     ];
