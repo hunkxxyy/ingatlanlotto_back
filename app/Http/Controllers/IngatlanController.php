@@ -26,8 +26,8 @@ class IngatlanController extends Controller
         $ingatlan->fuggo_sorsjegyek='nincs kész';
         $ingatlan->vasarolhato_sorsjegyek=$ingatlan->kibocsajtott_sorsjegyek-$ingatlan->megvasarolt_sorsjegyek;
         $ingatlan->kepek=$kepek->ingatlanKepek($id);
-      /*Itt az isarray nem volt jó, de kellett valami miatt ellenőrizni, de nem tudom miért*/
-        if (count($ingatlan->kepek)>0)
+
+        if (is_array($ingatlan->kepek))
          $ingatlan->defaultImg=$ingatlan->kepek[0];
         return $ingatlan;
     }
