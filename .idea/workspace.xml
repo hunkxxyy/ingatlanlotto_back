@@ -52,13 +52,13 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.37807184">
-              <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+              <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
               <folding>
                 <element signature="e#613#734#0#PHP" expanded="false" />
                 <element signature="e#740#1121#0#PHP" expanded="false" />
-                <element signature="e#3141#3708#0#PHP" expanded="false" />
-                <element signature="e#4253#4937#0#PHP" expanded="false" />
-                <element signature="e#4943#5208#0#PHP" expanded="false" />
+                <element signature="e#3138#3705#0#PHP" expanded="false" />
+                <element signature="e#4250#4934#0#PHP" expanded="false" />
+                <element signature="e#4940#5205#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -477,7 +477,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468065096846</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="kepeupload">
+      <created>1468065214766</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1468065214766</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -646,13 +652,13 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37807184">
-          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
           <folding>
             <element signature="e#613#734#0#PHP" expanded="false" />
             <element signature="e#740#1121#0#PHP" expanded="false" />
-            <element signature="e#3141#3708#0#PHP" expanded="false" />
-            <element signature="e#4253#4937#0#PHP" expanded="false" />
-            <element signature="e#4943#5208#0#PHP" expanded="false" />
+            <element signature="e#3138#3705#0#PHP" expanded="false" />
+            <element signature="e#4250#4934#0#PHP" expanded="false" />
+            <element signature="e#4940#5205#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
