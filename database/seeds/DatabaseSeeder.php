@@ -11,7 +11,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        DB::statement("TRUNCATE TABLE users ");
+       /* DB::statement("TRUNCATE TABLE users ");
          DB::statement("TRUNCATE TABLE ingatlandb  ");
         DB::statement("TRUNCATE TABLE ingatlan_kepek  ");
         DB::statement("TRUNCATE TABLE moduls  ");
@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
           DB::statement("TRUNCATE TABLE oauth_clients  ");
           DB::statement("TRUNCATE TABLE global_values ");
 
-          DB::statement("TRUNCATE TABLE oauth_clients  ");
+          DB::statement("TRUNCATE TABLE oauth_clients  ");*/
 
         $this->call('userSeed');
         $this->call('oauth2Clients');
