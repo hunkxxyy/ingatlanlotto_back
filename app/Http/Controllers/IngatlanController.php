@@ -27,7 +27,7 @@ class IngatlanController extends Controller
         $ingatlan->vasarolhato_sorsjegyek=$ingatlan->kibocsajtott_sorsjegyek-$ingatlan->megvasarolt_sorsjegyek;
         $ingatlan->kepek=$kepek->ingatlanKepek($id);
 
-        if (is_array($ingatlan->kepek))
+        //if (is_array($ingatlan->kepek))
          $ingatlan->defaultImg=$ingatlan->kepek[0];
         return $ingatlan;
     }
