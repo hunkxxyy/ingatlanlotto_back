@@ -87,7 +87,7 @@ class IngatlanKepekController extends Controller
 
     private function setName($request)
     {
-        // file_put_contents ( 'hunk2.log' ,print_r($_FILES,true) );
+         file_put_contents ( 'setName.log' ,$_FILES['file']['name'] );
         $extension = \Illuminate\Support\Facades\File::extension($_FILES['file']['name']);
         $name = ($request->name && $request->name != 'undefined') ? CommonFunction::hungarianToEnglishConvert($request->name) . '.' . $extension : CommonFunction::hungarianToEnglishConvert($_FILES['file']['name']);
 
