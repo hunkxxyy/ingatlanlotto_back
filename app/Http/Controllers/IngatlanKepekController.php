@@ -61,7 +61,7 @@ class IngatlanKepekController extends Controller
         $fileName = $this->setName($request);
         file_put_contents('newkep.log', '62 még jó, '.print_r($values,true));
         $newkep = IngatlanKepek::create($values);
-        //file_put_contents('newkep.log', '64 még jó');
+        file_put_contents('tovabb.log', '64 még jó');
         $newkep->name = $fileName;
         $newkep->file = $fileName;
         $newkep->pos = $count;
@@ -89,10 +89,8 @@ class IngatlanKepekController extends Controller
     {
 
         $extension = \Illuminate\Support\Facades\File::extension($_FILES['file']['name']);
-        file_put_contents ( 'setName.log' ,$extension );
-        file_put_contents ( 'setName2.log' ,CommonFunction::hungarianToEnglishConvert($_FILES['file']['name']) );
         $name = ($request->name && $request->name != 'undefined') ? CommonFunction::hungarianToEnglishConvert($request->name) . '.' . $extension : CommonFunction::hungarianToEnglishConvert($_FILES['file']['name']);
-        file_put_contents ( 'setName3.log' ,$name );
+
 
 
         return $name;

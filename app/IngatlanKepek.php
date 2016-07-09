@@ -26,7 +26,7 @@ class IngatlanKepek extends Model
     public static $meretAzonossag = 'width';
     //---------------------------------------//
     protected $table = 'ingatlan_kepek';
-    protected $fillable = ['ingatlan_id', 'name', 'pos', 'file'];
+    protected $fillable = [ 'name', 'pos', 'file'];
     public $stroageRoot = '/';
     public $stroageName = 'ingatlankepek';
 
