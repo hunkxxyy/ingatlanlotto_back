@@ -53,21 +53,17 @@ class IngatlanKepekController extends Controller
 
     public function store(CreateIngatlanKepekRequest $request)
     {
-/*        file_put_contents('ujkepnel.log', print_r($request->all(), true));
-        file_put_contents('kepek_store.log', print_r($_FILES, true));*/
         $kepek = new IngatlanKepek();
         $count = $kepek->where('ingatlan_id', $request->ingatlan_id)->where('archived', 'false')->count();
         $values = $request->all();
         $fileName = $this->setName($request);
-        file_put_contents('newkep.log', '62 még jó, '.print_r($values,true));
         $newkep = IngatlanKepek::create($values);
-        file_put_contents('tovabb.log', '64 még jó');
         $newkep->name = $fileName;
         $newkep->file = $fileName;
         $newkep->pos = $count;
         $newkep->save();
         $mainDir = $this->createPaths($newkep->id);
-
+        //  file_put_contents('hunk2.log', print_r($_FILES, true));
 
         if ($newkep) {
             $currentPath = env('HOST_URL', 'forge');
@@ -87,10 +83,9 @@ class IngatlanKepekController extends Controller
 
     private function setName($request)
     {
-
+        // file_put_contents ( 'hunk2.log' ,print_r($_FILES,true) );
         $extension = \Illuminate\Support\Facades\File::extension($_FILES['file']['name']);
         $name = ($request->name && $request->name != 'undefined') ? CommonFunction::hungarianToEnglishConvert($request->name) . '.' . $extension : CommonFunction::hungarianToEnglishConvert($_FILES['file']['name']);
-
 
 
         return $name;
