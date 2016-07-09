@@ -59,7 +59,7 @@ class IngatlanKepekController extends Controller
         $count = $kepek->where('ingatlan_id', $request->ingatlan_id)->where('archived', 'false')->count();
         $values = $request->all();
         $fileName = $this->setName($request);
-        file_put_contents('newkep.log', '62 még jó, '+print_r($values,true));
+        file_put_contents('newkep.log', '62 még jó, '.print_r($values,true));
         $newkep = IngatlanKepek::create($values);
         //file_put_contents('newkep.log', '64 még jó');
         $newkep->name = $fileName;
