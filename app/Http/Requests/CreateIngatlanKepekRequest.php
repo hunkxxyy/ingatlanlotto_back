@@ -27,8 +27,6 @@ class CreateIngatlanKepekRequest extends Request
         switch ($this->method()) {
             case 'POST': {
                 return [
-                    'name' => 'required',
-                    'ingatlan_id'  => 'required'
 
 
 
