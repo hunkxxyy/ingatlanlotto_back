@@ -26,7 +26,8 @@ class IngatlanController extends Controller
         $ingatlan->fuggo_sorsjegyek='nincs kész';
         $ingatlan->vasarolhato_sorsjegyek=$ingatlan->kibocsajtott_sorsjegyek-$ingatlan->megvasarolt_sorsjegyek;
         $ingatlan->kepek=$kepek->ingatlanKepek($id);
-        if (is_array($ingatlan->kepek))
+      /*Itt az isarray nem volt jó, de kellett valami miatt ellenőrizni, de nem tudom miért*/
+        if (count($ingatlan->kepek)>0)
          $ingatlan->defaultImg=$ingatlan->kepek[0];
         return $ingatlan;
     }
@@ -40,12 +41,13 @@ class IngatlanController extends Controller
         $qb = new QueryBuilder();
         $qb->createQueryFields($query, $Ingatlan->getTable());
         $response = $qb->getResponse();
-       // $response[0]->kepek=
+
         if (is_array($response))
         {
             foreach ($response as $ing) {
 
                 $kepek=IngatlanKepek::kepek($ing->id);
+
                 $ing->kepek=$kepek;
                 $ing->kibocsajtott_sorsjegyek=ceil($ing->ingatlan_ar/$ing->sorsjegy_ar);
 
