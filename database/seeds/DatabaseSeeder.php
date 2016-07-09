@@ -27,8 +27,8 @@ class DatabaseSeeder extends Seeder
         $this->call('szintekSeed');
         $this->call('modulsSeed');
         $this->call('globalSeeds');
-        $this->call('ingatlanDbSeed');
-        $this->call('IngatlanKepekSeed');
+       // $this->call('ingatlanDbSeed');
+       // $this->call('IngatlanKepekSeed');
 
 
 /*
