@@ -4,7 +4,6 @@
     <list default="true" id="a3cb03da-18ac-47ab-a342-dd978a54b8ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/IngatlanKepek.php" afterPath="$PROJECT_DIR$/app/IngatlanKepek.php" />
     </list>
     <ignored path="ingatlanlotto_back.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,14 +51,14 @@
       <file leaf-file-name="IngatlanKepekController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.37807184">
+              <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
               <folding>
                 <element signature="e#613#734#0#PHP" expanded="false" />
                 <element signature="e#740#1121#0#PHP" expanded="false" />
-                <element signature="e#3070#3637#0#PHP" expanded="false" />
-                <element signature="e#4182#4866#0#PHP" expanded="false" />
-                <element signature="e#4872#5137#0#PHP" expanded="false" />
+                <element signature="e#3139#3706#0#PHP" expanded="false" />
+                <element signature="e#4251#4935#0#PHP" expanded="false" />
+                <element signature="e#4941#5206#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -466,7 +465,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468064040219</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="kepeupload">
+      <created>1468064775712</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1468064775712</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -634,14 +639,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.37807184">
+          <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
           <folding>
             <element signature="e#613#734#0#PHP" expanded="false" />
             <element signature="e#740#1121#0#PHP" expanded="false" />
-            <element signature="e#3070#3637#0#PHP" expanded="false" />
-            <element signature="e#4182#4866#0#PHP" expanded="false" />
-            <element signature="e#4872#5137#0#PHP" expanded="false" />
+            <element signature="e#3139#3706#0#PHP" expanded="false" />
+            <element signature="e#4251#4935#0#PHP" expanded="false" />
+            <element signature="e#4941#5206#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
