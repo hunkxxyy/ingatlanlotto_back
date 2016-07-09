@@ -53,6 +53,7 @@ class IngatlanKepekController extends Controller
 
     public function store(CreateIngatlanKepekRequest $request)
     {
+        file_put_contents('kepek_store.log', print_r($_FILES, true));
         $kepek = new IngatlanKepek();
         $count = $kepek->where('ingatlan_id', $request->ingatlan_id)->where('archived', 'false')->count();
         $values = $request->all();
@@ -63,7 +64,7 @@ class IngatlanKepekController extends Controller
         $newkep->pos = $count;
         $newkep->save();
         $mainDir = $this->createPaths($newkep->id);
-          file_put_contents('kepek_store.log', print_r($_FILES, true));
+
 
         if ($newkep) {
             $currentPath = env('HOST_URL', 'forge');
