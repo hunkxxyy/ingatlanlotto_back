@@ -27,8 +27,9 @@ class CreateIngatlanRequest extends Request
         switch ($this->method()) {
             case 'POST': {
                 return [
-                   /* 'name' => 'required',
-                    'ingatlan_id'  => 'required'*/
+                    'sorsjegy_ar'=>'required|integer|min:1',
+                    'pos' => 'required',
+                    'ingatlan_ar'=>'required|integer|min:1',
 
 
 
@@ -54,6 +55,9 @@ class CreateIngatlanRequest extends Request
 
         return [
             //'name.required' => Message::dictionary('name.required'),
+            'sorsjegy_ar.required' => 'A sorsjegy árának kitöltése kötelező!',
+            'sorsjegy_ar.min' => 'A sorsjegy ára minimum 1 ft. legyen!',
+            'ingatlan_ar.min' => 'A ingatlan ára minimum 1 ft. legyen!',
 
 
 
@@ -62,9 +66,16 @@ class CreateIngatlanRequest extends Request
     }
 
     public function response(array $errors)
-    {
+    {$i=0;
 
-        return response()->json(['message' => $errors, 'code' => 422], 422);
+        foreach ($errors as $oneErr=>$err)
+        {
+
+            $onlyErr[$i]=$err[0];
+            $i++;
+        }
+
+        return response()->json(['errors'=>$onlyErr, 'http_status'=>422]);
 
     }
 }

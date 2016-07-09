@@ -15,7 +15,7 @@ class IngatlanController extends Controller
     public function __construct()
     {
 
-        $this->middleware('oauth',['except'=>['show','listWithFilters']]);
+     //   $this->middleware('oauth',['except'=>['show','listWithFilters']]);
     }
     public function show($id)
     {
@@ -26,7 +26,8 @@ class IngatlanController extends Controller
         $ingatlan->fuggo_sorsjegyek='nincs kész';
         $ingatlan->vasarolhato_sorsjegyek=$ingatlan->kibocsajtott_sorsjegyek-$ingatlan->megvasarolt_sorsjegyek;
         $ingatlan->kepek=$kepek->ingatlanKepek($id);
-        $ingatlan->defaultImg=$ingatlan->kepek[0];
+        if (is_array($ingatlan->kepek))
+         $ingatlan->defaultImg=$ingatlan->kepek[0];
         return $ingatlan;
     }
 
@@ -40,12 +41,15 @@ class IngatlanController extends Controller
         $qb->createQueryFields($query, $Ingatlan->getTable());
         $response = $qb->getResponse();
        // $response[0]->kepek=
+        if (is_array($response))
+        {
+            foreach ($response as $ing) {
 
-        foreach ($response as $ing) {
+                $kepek=IngatlanKepek::kepek($ing->id);
+                $ing->kepek=$kepek;
+                $ing->kibocsajtott_sorsjegyek=ceil($ing->ingatlan_ar/$ing->sorsjegy_ar);
 
-            $kepek=IngatlanKepek::kepek($ing->id);
-            $ing->kepek=$kepek;
-            $ing->kibocsajtott_sorsjegyek=ceil($ing->ingatlan_ar/$ing->sorsjegy_ar);
+            }
 
         }
         return $response;
@@ -62,7 +66,7 @@ class IngatlanController extends Controller
         $newIngatlan = Ingatlan::create($values);
         $kepek=new IngatlanKepek();
         $kepek->where('ingatlan_id', '=', 0)->update(array('ingatlan_id' => $newIngatlan->id));
-        return response()->json(['msg' => 'oké', 'Ingatlan' => $newIngatlan], 202);
+        return response()->json(['msg' => 'oké_new ingatlan', 'Ingatlan' => $newIngatlan], 202);
     }
 
     public function update(CreateIngatlanRequest $request, $id)

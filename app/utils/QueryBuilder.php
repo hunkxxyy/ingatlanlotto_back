@@ -39,7 +39,8 @@ class QueryBuilder extends Model
         $needCount=(end($this->queries)=='getCount')?true:false;
         $response='';
         $query=DB::table($this->tableName);
-
+        $obj = ['archived', '=', '0'];
+        $this->where [] = $obj;
             if ($this->where)$query->where($this->where);
             if ($this->orWhere)$query->orWhere($this->orWhere);
             if ($this->whereRaw)$query->whereRaw($this->whereRaw);
@@ -47,8 +48,9 @@ class QueryBuilder extends Model
             if ($this->offset)$query->skip($this->offset);
             if ($this->limit)$query->take($this->limit);
 
-            $response=($needCount)? $query->count(): $query->get();
 
+            $response=($needCount)? $query->count(): $query->get();
+        file_put_contents('sql.log', $query->toSql());
       // dd(DB::getQueryLog());
         return $response;
 
