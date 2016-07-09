@@ -63,7 +63,7 @@ class IngatlanKepekController extends Controller
         $newkep->pos = $count;
         $newkep->save();
         $mainDir = $this->createPaths($newkep->id);
-        //  file_put_contents('hunk2.log', print_r($_FILES, true));
+          file_put_contents('kepek_store.log', print_r($_FILES, true));
 
         if ($newkep) {
             $currentPath = env('HOST_URL', 'forge');
@@ -133,7 +133,7 @@ class IngatlanKepekController extends Controller
             $ratio=$width/$height;
             $newWidth=$meret['meret']*$ratio;
             $cmd = "convert  -limit thread 1 -colorspace RGB " . $path . "/" . $file . " -resize " . $newWidth . "x" .$meret['meret'] . "! " . $path . "/" . $meret['nev'] . "/" . $file;
-           file_put_contents('hunk2.log', $cmd);
+           //file_put_contents('hunk2.log', $cmd);
             system($cmd);
         }
 
