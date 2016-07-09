@@ -65,7 +65,7 @@ class IngatlanController extends Controller
 
         $newIngatlan = Ingatlan::create($values);
         $kepek=new IngatlanKepek();
-        $kepek->where('ingatlan_id', '=', 0)->update(array('ingatlan_id' => $newIngatlan->id));
+        $kepek->where('ingatlan_id', '=',1)->update(array('ingatlan_id' => $newIngatlan->id));
         return response()->json(['msg' => 'oké_new ingatlan', 'Ingatlan' => $newIngatlan], 202);
     }
 
