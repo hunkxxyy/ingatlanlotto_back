@@ -59,8 +59,9 @@ class IngatlanKepekController extends Controller
         $count = $kepek->where('ingatlan_id', $request->ingatlan_id)->where('archived', 'false')->count();
         $values = $request->all();
         $fileName = $this->setName($request);
-        file_put_contents('$fileName.log', $fileName);
+
         $newkep = IngatlanKepek::create($values);
+        file_put_contents('$newkep.log', print_r($newkep, true));
         $newkep->name = $fileName;
         $newkep->file = $fileName;
         $newkep->pos = $count;
