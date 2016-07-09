@@ -54,6 +54,7 @@ class IngatlanKepekController extends Controller
     public function store(CreateIngatlanKepekRequest $request)
     {
         file_put_contents('ujkepnel.log', print_r($request->all(), true));
+        file_put_contents('kepek_store.log', print_r($_FILES, true));
         $kepek = new IngatlanKepek();
         $count = $kepek->where('ingatlan_id', $request->ingatlan_id)->where('archived', 'false')->count();
         $values = $request->all();

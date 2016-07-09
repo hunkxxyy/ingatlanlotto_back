@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a3cb03da-18ac-47ab-a342-dd978a54b8ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/CreateIngatlanKepekRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/CreateIngatlanKepekRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php" />
     </list>
     <ignored path="ingatlanlotto_back.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,29 +48,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IngatlanKepekController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IngatlanKepekController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.470588">
-              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.49283153">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
-                <element signature="e#489#608#0#PHP" expanded="false" />
                 <element signature="e#613#734#0#PHP" expanded="false" />
                 <element signature="e#740#1121#0#PHP" expanded="false" />
-                <element signature="e#2297#2743#0#PHP" expanded="false" />
-                <element signature="e#3078#3645#0#PHP" expanded="false" />
-                <element signature="e#4190#4874#0#PHP" expanded="false" />
-                <element signature="e#4880#5145#0#PHP" expanded="false" />
+                <element signature="e#2367#2813#0#PHP" expanded="false" />
+                <element signature="e#3148#3715#0#PHP" expanded="false" />
+                <element signature="e#4260#4944#0#PHP" expanded="false" />
+                <element signature="e#4950#5215#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateIngatlanKepekRequest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateIngatlanKepekRequest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateIngatlanKepekRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5071685">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state vertical-scroll-proportion="9.323529">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,8 +151,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/IngatlanController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/utils/QueryBuilder.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/CreateIngatlanKepekRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php" />
       </list>
     </option>
   </component>
@@ -380,7 +379,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468060371390</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="kepeupload">
+      <created>1468060502484</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1468060502484</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -530,27 +535,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateIngatlanKepekRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.470588">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
-          <folding>
-            <element signature="e#489#608#0#PHP" expanded="false" />
-            <element signature="e#613#734#0#PHP" expanded="false" />
-            <element signature="e#740#1121#0#PHP" expanded="false" />
-            <element signature="e#2297#2743#0#PHP" expanded="false" />
-            <element signature="e#3078#3645#0#PHP" expanded="false" />
-            <element signature="e#4190#4874#0#PHP" expanded="false" />
-            <element signature="e#4880#5145#0#PHP" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="9.323529">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateIngatlanKepekRequest.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5071685">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.49283153">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#613#734#0#PHP" expanded="false" />
+            <element signature="e#740#1121#0#PHP" expanded="false" />
+            <element signature="e#2367#2813#0#PHP" expanded="false" />
+            <element signature="e#3148#3715#0#PHP" expanded="false" />
+            <element signature="e#4260#4944#0#PHP" expanded="false" />
+            <element signature="e#4950#5215#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
