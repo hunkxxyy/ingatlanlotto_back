@@ -51,14 +51,14 @@
       <file leaf-file-name="IngatlanKepekController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42293906">
-              <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.6469534">
+              <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
               <folding>
                 <element signature="e#613#734#0#PHP" expanded="false" />
                 <element signature="e#740#1121#0#PHP" expanded="false" />
-                <element signature="e#3260#3827#0#PHP" expanded="false" />
-                <element signature="e#4372#5056#0#PHP" expanded="false" />
-                <element signature="e#5062#5327#0#PHP" expanded="false" />
+                <element signature="e#3261#3828#0#PHP" expanded="false" />
+                <element signature="e#4373#5057#0#PHP" expanded="false" />
+                <element signature="e#5063#5328#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -392,7 +392,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468060951350</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="kepeupload">
+      <created>1468061074438</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1468061074438</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -560,14 +566,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IngatlanKepekController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42293906">
-          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.6469534">
+          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
           <folding>
             <element signature="e#613#734#0#PHP" expanded="false" />
             <element signature="e#740#1121#0#PHP" expanded="false" />
-            <element signature="e#3260#3827#0#PHP" expanded="false" />
-            <element signature="e#4372#5056#0#PHP" expanded="false" />
-            <element signature="e#5062#5327#0#PHP" expanded="false" />
+            <element signature="e#3261#3828#0#PHP" expanded="false" />
+            <element signature="e#4373#5057#0#PHP" expanded="false" />
+            <element signature="e#5063#5328#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>

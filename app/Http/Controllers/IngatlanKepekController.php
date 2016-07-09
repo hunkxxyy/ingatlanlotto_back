@@ -60,7 +60,7 @@ class IngatlanKepekController extends Controller
         $values = $request->all();
         $fileName = $this->setName($request);
         file_put_contents('newkep.log', '62 még jó');
-        $newkep = IngatlanKepek::create($values);
+        $newkep = IngatlanKepek::create($request);
         file_put_contents('newkep.log', '64 még jó');
         $newkep->name = $fileName;
         $newkep->file = $fileName;
