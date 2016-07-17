@@ -19,6 +19,7 @@ Route::get('Szintek/menu','SzintekController@menu');
 Route::get('Szintek/menulogged','SzintekController@menuLogged');
 //Route::get('Szintek/menu/{token}','SzintekController@menu');
 Route::get('Szintek/tartalom/{szint_id}','SzintekController@tartalom');
+Route::post('Szintek/tartalom/{szint_id}','SzintekController@update');
 Route::get('/register',function(){$user = new App\User();
     $user->name="hunk";
     $user->email="hunk74@gmail.com";
@@ -75,3 +76,17 @@ Route::get('api/licit/{id}','LicitController@show');
 Route::post('api/licit/','LicitController@store');
 Route::put('api/licit/modify/{id}','LicitController@update');
 Route::put('api/licit/archive/{id}','LicitController@archive');
+/*-------------------------------- NEWS --------------------------------------*/
+
+Route::get('api/news/{query}','NewController@listWithFilters');
+Route::get('api/new/{id}','NewController@show');
+Route::post('api/new/','NewController@store');
+Route::put('api/new/modify/{id}','NewController@update');
+Route::put('api/new/archive/{id}','NewController@archive');
+/*-------------------------------- Eredmenyek --------------------------------------*/
+
+Route::get('api/eredmenyeks/{query}','EredmenyekController@listWithFilters');
+Route::get('api/eredmenyek/{id}','EredmenyekController@show');
+Route::post('api/eredmenyek/','EredmenyekController@store');
+Route::put('api/eredmenyek/modify/{id}','EredmenyekController@update');
+Route::put('api/eredmenyek/archive/{id}','EredmenyekController@archive');

@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 class Szintek extends Model
 {
     protected $table = 'szintek';
-
+    protected $fillable=['szoveg'];
     public function getMenu($user='')
     {
         $menuArr[] = [
@@ -62,7 +62,7 @@ class Szintek extends Model
     public function getTartalom($szint_id){
 
         $szint=$this->where('link',$szint_id)->first();
-       $htmls= DB::table('responsive_oldalak')->where('szint_id','=',$szint->id)->get();
-        return $htmls;
+   //    $htmls= DB::table('responsive_oldalak')->where('szint_id','=',$szint->id)->get();
+        return $szint;
     }
 }

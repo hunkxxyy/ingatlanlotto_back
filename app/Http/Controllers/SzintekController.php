@@ -10,7 +10,7 @@ class SzintekController extends Controller
     public function __construct()
     {
 
-        $this->middleware('oauth',['except'=>['menu']]);
+       // $this->middleware('oauth',['except'=>['menu']]);
     }
     public function index(){
         return Szintek::all();
@@ -29,7 +29,20 @@ class SzintekController extends Controller
         return $response;
     }
     public function tartalom($szint_id){
-        $szintek=new Szintek();
-        return $szintek->getTartalom($szint_id);
+          $szintek=new Szintek();
+         $szint= $szintek->getTartalom($szint_id);
+        return response()->json(['szint'=>$szint]) ;
+
+    }
+    public function update(Request $request, $id)
+    {
+
+
+
+        $szint=Szintek::find($id);
+
+        $szint->fill($request->all());
+        $szint->push();
+        return response()->json($szint);
     }
 }

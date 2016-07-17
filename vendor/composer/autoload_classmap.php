@@ -6,11 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'CreateEredmenyekTable' => $baseDir . '/database/migrations/2016_07_17_141732_create_eredmenyek_table.php',
     'CreateGlobalsTable' => $baseDir . '/database/migrations/2016_05_20_082606_create_globals_table.php',
-    'CreateIngatlanKepek' => $baseDir . '/database/migrations/2016_05_28_111202_create_ingatlan_kepek.php',
-    'CreateIngatlanokTable' => $baseDir . '/database/migrations/2016_05_28_104924_create_ingatlanok_table.php',
+    'CreateIngatlanKepek' => $baseDir . '/database/migrations/kivett/2016_05_28_111202_create_ingatlan_kepek.php',
+    'CreateIngatlanokTable' => $baseDir . '/database/migrations/kivett/2016_05_28_104924_create_ingatlanok_table.php',
     'CreateLicitsTable' => $baseDir . '/database/migrations/2016_07_02_140512_create_licits_table.php',
     'CreateModulsTable' => $baseDir . '/database/migrations/2016_05_20_075354_create_moduls_table.php',
+    'CreateNewsTable' => $baseDir . '/database/migrations/2016_07_17_064630_create_news_table.php',
     'CreateOauthAccessTokenScopesTable' => $baseDir . '/database/migrations/2014_04_24_111657_create_oauth_access_token_scopes_table.php',
     'CreateOauthAccessTokensTable' => $baseDir . '/database/migrations/2014_04_24_111518_create_oauth_access_tokens_table.php',
     'CreateOauthAuthCodeScopesTable' => $baseDir . '/database/migrations/2014_04_24_111403_create_oauth_auth_code_scopes_table.php',
@@ -31,6 +33,7 @@ return array(
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'CreateVisitedsTable' => $baseDir . '/database/migrations/2016_06_24_190603_create_visiteds_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
+    'EredmenyeSeed' => $baseDir . '/database/seeds/EredmenyeSeed.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',
     'File_Iterator_Factory' => $vendorDir . '/phpunit/php-file-iterator/src/Factory.php',
@@ -104,6 +107,7 @@ return array(
     'Hamcrest\\Xml\\HasXPath' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
     'IlluminateQueueClosure' => $vendorDir . '/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php',
     'IngatlanKepekSeed' => $baseDir . '/database/seeds/IngatlanKepekSeed.php',
+    'NewsSeed' => $baseDir . '/database/seeds/NewsSeed.php',
     'PHPUnit_Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit_Extensions_GroupTestSuite' => $vendorDir . '/phpunit/phpunit/src/Extensions/GroupTestSuite.php',
     'PHPUnit_Extensions_PhptTestCase' => $vendorDir . '/phpunit/phpunit/src/Extensions/PhptTestCase.php',

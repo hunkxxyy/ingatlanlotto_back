@@ -73,22 +73,8 @@ class szintekSeed extends Seeder
                 'tipus'=>'3',
                 'pos'=>'2'
             ]
-            ,
-            [
-                'parent'=>'6',
-                'nev'=>'Friss hírek',
-                'link'=>'friss-hirek',
-                'tipus'=>'3',
-                'pos'=>'2'
-            ]
-            ,
-            [
-                'parent'=>'6',
-                'nev'=>'Arhívum',
-                'link'=>'archivum',
-                'tipus'=>'3',
-                'pos'=>'2'
-            ]
+
+
             ,
             [
                 'parent'=>'2',
@@ -99,16 +85,30 @@ class szintekSeed extends Seeder
             ]
             ,
             [
-                'parent'=>'11',
+                'parent'=>'9',
                 'nev'=>'Ingatlanok',
                 'link'=>'admin/ingatlanok',
                 'tipus'=>'3',
                 'pos'=>'1'
             ] ,
             [
-                'parent'=>'11',
+                'parent'=>'9',
                 'nev'=>'Felhasználók',
                 'link'=>'admin/users',
+                'tipus'=>'3',
+                'pos'=>'1'
+            ],
+            [
+                'parent'=>'9',
+                'nev'=>'Hírek',
+                'link'=>'admin/hirek',
+                'tipus'=>'3',
+                'pos'=>'1'
+            ],
+            [
+                'parent'=>'9',
+                'nev'=>'Eredmények',
+                'link'=>'admin/eredmenyek',
                 'tipus'=>'3',
                 'pos'=>'1'
             ]
