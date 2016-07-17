@@ -11,7 +11,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-      DB::statement("TRUNCATE TABLE users ");
+      //DB::statement("TRUNCATE TABLE users ");
+      DB::table('users')->delete();
         DB::statement("TRUNCATE TABLE oauth_clients  ");
         DB::statement("TRUNCATE TABLE moduls  ");
         DB::statement("TRUNCATE TABLE news");
