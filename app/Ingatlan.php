@@ -4,10 +4,11 @@ namespace App;
 
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
 
 class Ingatlan extends Model
 {
-    protected $table='ingatlandb';
+    protected $table = 'ingatlandb';
     protected $fillable = [
         'pos',
         'tulaj_varos',
@@ -27,10 +28,13 @@ class Ingatlan extends Model
         'ingatlan_ar',
         'sorsjegy_ar',
         'szazalek_ertekesitve'];
-    public function kepek(){
+
+    public function kepek()
+    {
         dd($this->hasMany('App\IngatlanKepek'));
         return $this->hasMany('App\IngatlanKepek');
     }
+
     public function archive()
     {
         $this->archived = 1;
@@ -38,5 +42,16 @@ class Ingatlan extends Model
         $this->save();
     }
 
+    public function licit($id)
+    {
+        //$licits=DB::table('licits')->join('users', 'users.id', '=', 'licits.ingatlan_id')->where('licits.ingatlan_id','=',$id)->orderby('licits.created_at','desc')->get();
+        $licits=DB::table('licits')->
+        leftjoin('users', 'users.id', '=', 'licits.user_id')
+            ->select('licits.*','users.name as user_name','users.email as user_email')
+            ->where('licits.ingatlan_id','=',$id)
+            ->orderby('licits.created_at','desc')
+            ->get();
+        return $licits;
+    }
 }
 

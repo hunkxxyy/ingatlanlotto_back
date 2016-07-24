@@ -12,6 +12,7 @@ a client secret ssh titkosított ez okoz problémát. Figyelj rá*/
 
 Route::post('oauth/acces_token','Auth\Oauth2Controller@loginPost');
 Route::get('oauth/exit/','Auth\Oauth2Controller@destroy');
+Route::get('oauth/checkvalid/{token}','Auth\Oauth2Controller@checkValid');
 
 
 
@@ -52,9 +53,11 @@ Route::put('api/user/archive/{id}','UserController@archive');
 /*-------------------------------- INGATLADB --------------------------------------*/
 Route::get('api/ingatlans/{query}','IngatlanController@listWithFilters');
 Route::get('api/ingatlan/{id}','IngatlanController@show');
+Route::get('api/ingatlan/{id}/licits','IngatlanController@showlicits');
 Route::post('api/ingatlan/','IngatlanController@store');
 Route::put('api/ingatlan/modify/{id}','IngatlanController@update');
 Route::put('api/ingatlan/archive/{id}','IngatlanController@archive');
+
 
 /*-------------------------------- INGATLANIngatlanKepek --------------------------------------*/
 
@@ -70,8 +73,11 @@ Route::put('api/ingatlan_kepek/archive/{id}','IngatlanKepekController@archive');
 Route::get('api/visited/','VisitedController@show');
 Route::post('api/visited/','VisitedController@store');
 /*-------------------------------- LICIT --------------------------------------*/
+
+Route::get('api/licits/all/{filter}','LicitController@all');
 Route::get('api/licits/{query}','LicitController@listWithFilters');
-Route::get('api/licit/dir/','LicitController@makedir');
+Route::put('api/licits/fizetve/{id}','LicitController@fizetve');
+
 Route::get('api/licit/{id}','LicitController@show');
 Route::post('api/licit/','LicitController@store');
 Route::put('api/licit/modify/{id}','LicitController@update');
@@ -90,3 +96,7 @@ Route::get('api/eredmenyek/{id}','EredmenyekController@show');
 Route::post('api/eredmenyek/','EredmenyekController@store');
 Route::put('api/eredmenyek/modify/{id}','EredmenyekController@update');
 Route::put('api/eredmenyek/archive/{id}','EredmenyekController@archive');
+
+
+//TesztMail
+Route::get('mail','LicitController@sendEmail');

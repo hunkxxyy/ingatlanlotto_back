@@ -28,7 +28,7 @@ class Szintek extends Model
         $query=DB::table($this->table);
         $query->where('parent', '2');
         if ($user!='admin')
-            $query->where('id','!=', '11'); //admin menüpont
+            $query->where('nev','!=', 'Admin'); //admin menüpont
         $menus=$query->get();
 
         foreach ($menus as $menu) {

@@ -14,7 +14,8 @@
         "phpunit/phpunit": "~4.0",
         "symfony/css-selector": "2.8.*|3.0.*",
         "symfony/dom-crawler": "2.8.*|3.0.*",
-        "lucadegasperi/oauth2-server-laravel":"5.1.4"
+        "lucadegasperi/oauth2-server-laravel":"5.1.4",
+        "guzzlehttp/guzzle": "~5.3|~6.0"
     },
     "autoload": {
         "classmap": [

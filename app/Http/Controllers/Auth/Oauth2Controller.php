@@ -26,6 +26,7 @@ class Oauth2Controller extends Controller
     public function destroy(){
 
 
+
         Authorizer::getChecker()->getAccessToken()->expire();
         return response()->json(['logout'=>'success']);
     }

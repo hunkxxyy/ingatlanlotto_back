@@ -111,6 +111,13 @@ class szintekSeed extends Seeder
                 'link'=>'admin/eredmenyek',
                 'tipus'=>'3',
                 'pos'=>'1'
+            ],
+            [
+                'parent'=>'9',
+                'nev'=>'Vásárlások',
+                'link'=>'admin/vasarlasok',
+                'tipus'=>'3',
+                'pos'=>'1'
             ]
         ];
 

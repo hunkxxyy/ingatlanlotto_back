@@ -29,9 +29,14 @@ class IngatlanController extends Controller
 
         //if (is_array($ingatlan->kepek))
          $ingatlan->defaultImg=$ingatlan->kepek[0];
+
+
         return $ingatlan;
     }
-
+    public function showlicits($id){
+        $ingatlan = new Ingatlan();
+        return $ingatlan->licit($id);
+    }
     public function listWithFilters($query)
     {
 
