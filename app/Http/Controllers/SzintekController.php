@@ -11,7 +11,7 @@ class SzintekController extends Controller
     public function __construct()
     {
 
-        $this->middleware('oauth',['except'=>['menu','tartalom']]);
+        $this->middleware('oauth',['except'=>['menu','tartalom','showall']]);
     }
     public function index(){
         return Szintek::all();
@@ -38,6 +38,11 @@ class SzintekController extends Controller
           $szintek=new Szintek();
          $szint= $szintek->getTartalom($szint_id);
         return response()->json(['szint'=>$szint]) ;
+
+    }
+    public function showall(){
+        $Szintek = Szintek::all();
+        return $Szintek ;
 
     }
     public function update(Request $request, $id)

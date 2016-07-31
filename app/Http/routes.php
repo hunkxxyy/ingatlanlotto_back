@@ -19,6 +19,7 @@ Route::get('oauth/checkvalid/{token}','Auth\Oauth2Controller@checkValid');
 Route::get('Szintek/menu','SzintekController@menu');
 Route::get('Szintek/menulogged','SzintekController@menuLogged');
 //Route::get('Szintek/menu/{token}','SzintekController@menu');
+Route::get('Szintek/tartalom/all','SzintekController@showall');
 Route::get('Szintek/tartalom/{szint_id}','SzintekController@tartalom');
 Route::post('Szintek/tartalom/{szint_id}','SzintekController@update');
 Route::get('/register',function(){$user = new App\User();
@@ -96,6 +97,10 @@ Route::get('api/eredmenyek/{id}','EredmenyekController@show');
 Route::post('api/eredmenyek/','EredmenyekController@store');
 Route::put('api/eredmenyek/modify/{id}','EredmenyekController@update');
 Route::put('api/eredmenyek/archive/{id}','EredmenyekController@archive');
+/*-------------------------------- Kapcsolat --------------------------------------*/
+
+Route::get('api/kapcsolat/','KapcsolatController@getParams');
+Route::post('api/kapcsolat/','KapcsolatController@setParams');
 
 
 //TesztMail

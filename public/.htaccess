@@ -1,6 +1,6 @@
 Header set Access-Control-Allow-Origin "http://winner.oxhungary.hu"
 Header set Access-Control-Allow-Origin "http://winner"
-Header set Access-Control-Allow-Origin "http://localhost:3000"
+Header set Access-Control-Allow-Origin "http://localhost:4200"
 Header set Access-Control-Allow-Credentials: true
 Header always set Access-Control-Max-Age "1000"
 Header always set Access-Control-Allow-Headers "X-Requested-With, Content-Type, Origin, Authorization, Accept, Client-Security-Token, Accept-Encoding"
