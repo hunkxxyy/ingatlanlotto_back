@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'CreateEredmenyekTable' => $baseDir . '/database/migrations/kivett/2016_07_17_141732_create_eredmenyek_table.php',
     'CreateGlobalsTable' => $baseDir . '/database/migrations/kivett/2016_05_20_082606_create_globals_table.php',
+    'CreateHtmlContentsTable' => $baseDir . '/database/migrations/2016_08_07_100630_create_html_contents_table.php',
     'CreateIngatlanKepek' => $baseDir . '/database/migrations/kivett/2016_05_28_111202_create_ingatlan_kepek.php',
     'CreateIngatlanokTable' => $baseDir . '/database/migrations/kivett/2016_05_28_104924_create_ingatlanok_table.php',
     'CreateKapcsolatTable' => $baseDir . '/database/migrations/2016_07_31_133021_create_kapcsolat_table.php',
@@ -543,6 +544,7 @@ return array(
     'TestCase' => $baseDir . '/tests/TestCase.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
     'globalSeeds' => $baseDir . '/database/seeds/globalSeeds.php',
+    'htmlContentsSeed' => $baseDir . '/database/seeds/htmlContentsSeed.php',
     'ingatlanDbSeed' => $baseDir . '/database/seeds/ingatlanDbSeed.php',
     'modulsSeed' => $baseDir . '/database/seeds/modulsSeed.php',
     'oauth2Clients' => $baseDir . '/database/seeds/oauth2Clients.php',

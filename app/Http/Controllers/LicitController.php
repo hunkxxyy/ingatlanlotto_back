@@ -48,10 +48,10 @@ class LicitController extends Controller
         $megvasarolt_sorsjegyek++;
         $ingatlan->szazalek_ertekesitve=ceil(($megvasarolt_sorsjegyek/$kibocsajtott_sorsjegyek)*100);
         $ingatlan->save();
-        file_put_contents('hunk2.log', print_r($values, true),FILE_APPEND );
+      //  file_put_contents('hunk2.log', print_r($values, true),FILE_APPEND );
          Licit::create($values);
 
-      //  $this->sendEmail($userId,$code);
+        //$this->sendEmail($userId,$code);
         return response()->json(['msg'=>'sikeres szavazás','return'=>$ingatlan->szazalek_ertekesitve]);
     }
     private function sendEmail($userid,$code){

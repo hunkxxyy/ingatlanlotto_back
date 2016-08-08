@@ -101,7 +101,10 @@ Route::put('api/eredmenyek/archive/{id}','EredmenyekController@archive');
 
 Route::get('api/kapcsolat/','KapcsolatController@getParams');
 Route::post('api/kapcsolat/','KapcsolatController@setParams');
+Route::get('api/getcontents/','HtmlContentsController@getAll');
+Route::put('api/setcontents/{id}','HtmlContentsController@update');
 
+Route::post('api/kapcsolat/email','KapcsolatEmailController@sendemail');
 
 //TesztMail
 Route::get('mail','LicitController@sendEmail');
