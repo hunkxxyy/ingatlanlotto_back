@@ -8,6 +8,7 @@ use App\utils\QueryBuilder;
 use Illuminate\Http\Request;
 USE App\Http\Requests\CreateIngatlanRequest;
 use Illuminate\Support\Facades\DB;
+use LucaDegasperi\OAuth2Server\Facades\Authorizer;
 
 class IngatlanController extends Controller
 {
@@ -15,18 +16,19 @@ class IngatlanController extends Controller
     public function __construct()
     {
 
-     //   $this->middleware('oauth',['except'=>['show','listWithFilters']]);
+       $this->middleware('oauth',['except'=>['show','listWithFilters']]);
     }
     public function show($id)
     {
         $kepek=new IngatlanKepek();
         $ingatlan = Ingatlan::find($id);
         $ingatlan->kibocsajtott_sorsjegyek=ceil($ingatlan->ingatlan_ar/$ingatlan->sorsjegy_ar);
-        $ingatlan->megvasarolt_sorsjegyek=DB::table('licits')->where('ingatlan_id',$ingatlan->id)->count();
+        $extra=($ingatlan->ingatlan_ar/$ingatlan->sorsjegy_ar)*($ingatlan->extra_szazalek/100);
+        $ingatlan->megvasarolt_sorsjegyek=DB::table('licits')->where('ingatlan_id',$ingatlan->id)->count()+ceil($extra);
         $ingatlan->fuggo_sorsjegyek='nincs kész';
         $ingatlan->vasarolhato_sorsjegyek=$ingatlan->kibocsajtott_sorsjegyek-$ingatlan->megvasarolt_sorsjegyek;
         $ingatlan->kepek=$kepek->ingatlanKepek($id);
-
+        //unset($ingatlan->extra_szazalek);
         //if (is_array($ingatlan->kepek))
          $ingatlan->defaultImg=$ingatlan->kepek[0];
 
@@ -84,10 +86,31 @@ class IngatlanController extends Controller
         $Ingatlan=Ingatlan::find($id);
 
         $Ingatlan->fill($request->all());
+     //   file_put_contents('hunk2.log', print_r($request->all(), true));
         $Ingatlan->push();
         return response()->json($Ingatlan);
     }
+    public function kivalasztott(){
 
+        $userId=Authorizer::getResourceOwnerId();
+
+        $ingatlan=new Ingatlan();
+        $response= $ingatlan->getKivalasztottIngatlanok($userId);
+
+            foreach ($response as $ing) {
+
+                $kepek=IngatlanKepek::kepek($ing->id);
+                $ing->kibocsajtott_sorsjegyek=ceil($ing->ingatlan_ar/$ing->sorsjegy_ar);
+                $ing->kepek=$kepek;
+
+
+            }
+
+        return $response;
+
+
+
+    }
 
     public function archive($id)
     {

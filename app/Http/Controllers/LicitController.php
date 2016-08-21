@@ -46,13 +46,16 @@ class LicitController extends Controller
         $kibocsajtott_sorsjegyek=ceil($ingatlan->ingatlan_ar/$ingatlan->sorsjegy_ar);
         $megvasarolt_sorsjegyek=DB::table('licits')->where('ingatlan_id',$ingatlan->id)->count();
         $megvasarolt_sorsjegyek++;
-        $ingatlan->szazalek_ertekesitve=ceil(($megvasarolt_sorsjegyek/$kibocsajtott_sorsjegyek)*100);
+        $ingatlan->szazalek_ertekesitve=ceil(($megvasarolt_sorsjegyek/$kibocsajtott_sorsjegyek)*100)+$ingatlan->extra_szazalek;
         $ingatlan->save();
       //  file_put_contents('hunk2.log', print_r($values, true),FILE_APPEND );
          Licit::create($values);
 
         //$this->sendEmail($userId,$code);
-        return response()->json(['msg'=>'sikeres szavazás','return'=>$ingatlan->szazalek_ertekesitve]);
+        $savedIngatlan=new IngatlanController();
+        $kivalasztott=$savedIngatlan->kivalasztott();
+
+        return response()->json(['msg'=>'sikeres szavazás','return'=>$ingatlan->szazalek_ertekesitve,'kivalasztott_ingatlanok'=>$kivalasztott]);
     }
     private function sendEmail($userid,$code){
 
@@ -106,5 +109,12 @@ class LicitController extends Controller
             $message->to($user->email)->cc($user->felado);
         });
     }
+    public function showlicitToplista($ingatlanId){
+        $licit=new Licit();
+        return $licit->getToplista($ingatlanId);
+    }
+    public function fuggobenleve($id){
 
+        return Licit::where('ingatlan_id',$id)->where('jovahagyva','0')->count();
+    }
 }

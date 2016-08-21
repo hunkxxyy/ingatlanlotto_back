@@ -52,9 +52,12 @@ Route::put('api/user/archive/{id}','UserController@archive');
 
 
 /*-------------------------------- INGATLADB --------------------------------------*/
+Route::get('api/ingatlans/kivalasztott','IngatlanController@kivalasztott');
 Route::get('api/ingatlans/{query}','IngatlanController@listWithFilters');
 Route::get('api/ingatlan/{id}','IngatlanController@show');
 Route::get('api/ingatlan/{id}/licits','IngatlanController@showlicits');
+Route::get('api/ingatlan/licit/toplista/{id}','LicitController@showlicitToplista');
+Route::get('api/ingatlan/licit/fuggobenleve/{id}','LicitController@fuggobenleve');
 Route::post('api/ingatlan/','IngatlanController@store');
 Route::put('api/ingatlan/modify/{id}','IngatlanController@update');
 Route::put('api/ingatlan/archive/{id}','IngatlanController@archive');
