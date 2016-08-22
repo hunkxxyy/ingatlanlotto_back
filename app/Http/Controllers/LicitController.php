@@ -21,7 +21,7 @@ class LicitController extends Controller
     public function __construct()
     {
 
-      //  $this->middleware('oauth');
+        $this->middleware('oauth');
     }
     public function store(Request $request){
 
