@@ -31,7 +31,9 @@ class IngatlanController extends Controller
         //unset($ingatlan->extra_szazalek);
         //if (is_array($ingatlan->kepek))
          $ingatlan->defaultImg=$ingatlan->kepek[0];
-
+        $licits=new LicitController();
+        $ingatlan->toplista=$licits->showlicitToplista($ingatlan->id);
+        $ingatlan->fuggobenVan=$licits->fuggobenleve($ingatlan->id);
 
         return $ingatlan;
     }

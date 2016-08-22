@@ -44,7 +44,7 @@ class Licit extends Model
 
     public function getToplista($ingatlanId)
     {
-        $lista = DB::table('licits')->leftjoin('users', 'users.id', '=', 'licits.user_id')->select('users.name', 'users.id')->get();
+        $lista = DB::table('licits')->leftjoin('users', 'users.id', '=', 'licits.user_id')->select('users.name', 'users.id')->where('licits.ingatlan_id',$ingatlanId)->get();
         $users=[];
         foreach ($lista as $person) {
             $letezik=false;
