@@ -111,3 +111,8 @@ Route::post('api/kapcsolat/email','KapcsolatEmailController@sendemail');
 
 //TesztMail
 Route::get('mail','LicitController@sendEmail');
+/*-----------------------------------------CKEDITOR-----------------------------------------*/
+Route::get('api/ckeditor/images/{index}','CkeditorController@listOfImages');
+Route::post('api/ckeditor/fileupload/','CkeditorController@store');
+Route::put('api/ckeditor/filedelete/{id}','CkeditorController@filedelete');
+

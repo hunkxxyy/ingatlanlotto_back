@@ -14,7 +14,7 @@ class CreateLicitsTable extends Migration
     {
         Schema::create('licits', function (Blueprint $table) {
 
-
+            $table->increments('id');
             $table->integer('ingatlan_id')->unsigned();
             $table->foreign('ingatlan_id')->references('id')->on('ingatlandb');
             $table->integer('user_id')->unsigned();

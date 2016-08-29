@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'CreateCkeditorTable' => $baseDir . '/database/migrations/2016_08_28_165501_create_ckeditor_table.php',
     'CreateEredmenyekTable' => $baseDir . '/database/migrations/kivett/2016_07_17_141732_create_eredmenyek_table.php',
     'CreateGlobalsTable' => $baseDir . '/database/migrations/kivett/2016_05_20_082606_create_globals_table.php',
     'CreateHtmlContentsTable' => $baseDir . '/database/migrations/2016_08_07_100630_create_html_contents_table.php',

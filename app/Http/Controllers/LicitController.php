@@ -51,7 +51,7 @@ class LicitController extends Controller
       //  file_put_contents('hunk2.log', print_r($values, true),FILE_APPEND );
          Licit::create($values);
 
-        //$this->sendEmail($userId,$code);
+        $this->sendEmail($userId,$code);
         $savedIngatlan=new IngatlanController();
         $kivalasztott=$savedIngatlan->kivalasztott();
 
@@ -95,7 +95,7 @@ class LicitController extends Controller
         $licit->fill($all);
         $licit->push();
         $licitall=$this->all('&limit=50&offset=0&orderBy=all&search='.$all['code']);
-        //$this->sendEmailJovahagyva($licit->toArray());
+        $this->sendEmailJovahagyva($licit->toArray());
 
         return $licitall;
     }
