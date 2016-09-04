@@ -66,7 +66,7 @@ class LicitController extends Controller
     private function sendEmail($userid,$code){
 
         $user=User::find($userid);
-        Mail::send('emails.teszt', ['name'=>$user->name,'code'=>$code], function ($message) {
+        Mail::send('emails.megrendelve', ['name'=>$user->name,'code'=>$code], function ($message) {
             $message->from('us@example.com', 'Laravel');
 
             $message->to('hunk74@gmail.com');

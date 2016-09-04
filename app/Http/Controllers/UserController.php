@@ -107,7 +107,8 @@ class UserController extends Controller
             $user=User::where('email',$email)->first();
 
             $user->reminder=CommonFunction::randomString(50);
-           $link= 'http://localhost:4200/#/changeforgottenpassord/'.$user->reminder;
+           $link= env('HOST_FRONT', 'forge').'changeforgottenpassord/'.$user->reminder;
+
             $user->save();
              Mail::send('emails.paswordreminder', ['name'=>$user->name,'link'=>$link], function ($message) {
                 $message->from('us@example.com', 'Laravel');
