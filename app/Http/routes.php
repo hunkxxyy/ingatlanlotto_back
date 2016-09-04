@@ -12,6 +12,7 @@ a client secret ssh titkosított ez okoz problémát. Figyelj rá*/
 
 Route::post('oauth/acces_token','Auth\Oauth2Controller@loginPost');
 Route::get('oauth/exit/','Auth\Oauth2Controller@destroy');
+Route::get('oauth/usertype/','Auth\Oauth2Controller@usertype');
 Route::get('oauth/checkvalid/{token}','Auth\Oauth2Controller@checkValid');
 
 
@@ -48,6 +49,9 @@ Route::get('api/currentuser/','UserController@showMyData');
 Route::post('api/user/','UserController@store');
 Route::put('api/user/modify/{id}','UserController@update');
 Route::put('api/currentuser/modify/','UserController@updateCurrent');
+Route::get('api/user/passwordreminder/{email}','UserController@passwordreminder_send');
+Route::put('api/user/forgottenpasswordrchange','UserController@forgottenpasswordrchange');
+
 Route::put('api/user/archive/{id}','UserController@archive');
 
 

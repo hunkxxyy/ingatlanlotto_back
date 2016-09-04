@@ -24,8 +24,14 @@ class LicitController extends Controller
         $this->middleware('oauth');
     }
     public function store(Request $request){
-
-
+        $userId=Authorizer::getResourceOwnerId();
+        if (Licit::isTicketCountMoreThanMax($request->all(),$userId))
+            return response()->json(
+                ['msg'=>[
+                    'title'=>'Maximum sorjegy szám elérve',
+                    'body'=>'Az egy ingatlanra  megvásárolható sorsjegyek száma elérte a maximumut 5db.!'
+                ]
+                    ,'return'=>'overflow']);
 
         $codeNotExist=false;
         $code=0;
@@ -40,12 +46,12 @@ class LicitController extends Controller
       $request['code']=$code;
         $ingatlan=Ingatlan::find($request['ingatlan_id']);
 
-        $userId=Authorizer::getResourceOwnerId();
+
         $values = $request->all();
         $values['user_id']=$userId;
         $kibocsajtott_sorsjegyek=ceil($ingatlan->ingatlan_ar/$ingatlan->sorsjegy_ar);
         $megvasarolt_sorsjegyek=DB::table('licits')->where('ingatlan_id',$ingatlan->id)->count();
-        $megvasarolt_sorsjegyek++;
+          $megvasarolt_sorsjegyek++;
         $ingatlan->szazalek_ertekesitve=ceil(($megvasarolt_sorsjegyek/$kibocsajtott_sorsjegyek)*100)+$ingatlan->extra_szazalek;
         $ingatlan->save();
       //  file_put_contents('hunk2.log', print_r($values, true),FILE_APPEND );

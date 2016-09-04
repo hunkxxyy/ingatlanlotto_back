@@ -18,7 +18,7 @@ class SzintekController extends Controller
     }
     public function menu(){
 
-         $szintek=new Szintek();
+          $szintek=new Szintek();
         $response=$szintek->getMenu();
 
         return $response;

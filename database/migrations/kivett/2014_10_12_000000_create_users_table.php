@@ -18,6 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('privilegium');
             $table->string('email')->unique();
             $table->string('password');
+            $table->string('reminder',50)->nullable();
             $table->string('old_password');
             $table->string('cim_irsz');
             $table->string('cim_varos');

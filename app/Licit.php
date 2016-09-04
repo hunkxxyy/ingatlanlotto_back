@@ -72,4 +72,9 @@ class Licit extends Model
 
         return  array_slice($users, 0, 3);
     }
+    public static function  isTicketCountMoreThanMax($r,$userId){
+        $darab=DB::table('licits')->where('user_id',$userId)->where('ingatlan_id',$r['ingatlan_id'])->count();
+        return  ($darab>=5);
+
+    }
 }

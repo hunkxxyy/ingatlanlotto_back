@@ -14,15 +14,7 @@ class Szintek extends Model
         $menuArr[] = [
             'caption' => 'Ingatlanok',
             'link' => 'ingatlanok',
-            'submenu' => [[
-                'caption' => 'Licitalható ingatlanok',
-                'link' => 'licitalhato-ingatlanok',
 
-            ], [
-                'caption' => 'Lictált Ingatlanok',
-                'link' => 'licitalt-ingatlanok',
-
-            ]]
         ];
 
         $query=DB::table($this->table);
