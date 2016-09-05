@@ -16,7 +16,7 @@ class HtmlContentsController extends Controller
         $r=[];
         foreach ($all as $part) {
             if ($part['tartalom']=='') $part['tartalom']="Nincsen beállított tartalom";
-            $r[$part['index']] =['id'=>$part['id'],'content'=>$part['tartalom']] ;
+            $r[$part['index']] =['id'=>$part['id'],'content'=>$part['tartalom'],'title'=>$part['title']] ;
         }
         return response()->json($r);
     }
