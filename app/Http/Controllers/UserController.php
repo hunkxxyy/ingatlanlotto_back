@@ -110,10 +110,15 @@ class UserController extends Controller
            $link= env('HOST_FRONT', 'forge').'changeforgottenpassord/'.$user->reminder;
 
             $user->save();
-             Mail::send('emails.paswordreminder', ['name'=>$user->name,'link'=>$link], function ($message) {
-                $message->from('us@example.com', 'Laravel');
+        $user['felado']=env('MAIL_FELADO');
+        $user['MAIL_FELADO_NAME']=env('MAIL_FELADO_NAME');
 
-                $message->to('hunk74@gmail.com');
+        Mail::send('emails.paswordreminder', ['name'=>$user->name,'link'=>$link], function ($message)  use ($user) {
+
+
+                 $message->from($user->felado, $user->MAIL_FELADO_NAME);
+                 $message->subject("Jelszóemlékeztető");
+                 $message->to($user->email);
             });
 
 

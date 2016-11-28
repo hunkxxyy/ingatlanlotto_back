@@ -1,5 +1,8 @@
-Kedves <b>{{$user['name']}}</b><br><br>
-A befizetÃ©se megÃ©rkezett.<br>
-SorsjegyÃ©t aktivÃ¡ltuk:<br><br>
+Gratulálunk befizetése megérkezett.<br>
 
-ÃœdvÃ¶zlettel:
+Ön jogosult a sorsoláson való részvételre.<br>
+A sorsolást nyomon követheti oldalunkon<br>
+A nyertest emailen értesítjük.<br><br>
+
+
+Üdvözlettel: Winner Draw

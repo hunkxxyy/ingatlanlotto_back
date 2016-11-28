@@ -44,7 +44,7 @@ class Licit extends Model
 
     public function getToplista($ingatlanId)
     {
-        $lista = DB::table('licits')->leftjoin('users', 'users.id', '=', 'licits.user_id')->select('users.name', 'users.id')->where('licits.ingatlan_id',$ingatlanId)->get();
+        $lista = DB::table('licits')->leftjoin('users', 'users.id', '=', 'licits.user_id')->select('users.name', 'users.id')->where([['licits.ingatlan_id',$ingatlanId],['users.privilegium','!=','ADMIN']])->get();
         $users=[];
         foreach ($lista as $person) {
             $letezik=false;
@@ -73,7 +73,10 @@ class Licit extends Model
         return  array_slice($users, 0, 3);
     }
     public static function  isTicketCountMoreThanMax($r,$userId){
-        $darab=DB::table('licits')->where('user_id',$userId)->where('ingatlan_id',$r['ingatlan_id'])->count();
+        $user=User::where('id',$userId)->first();
+        //dd($user);
+        if ($user['privilegium']=='ADMIN') $darab=1;
+        else $darab=DB::table('licits')->where('user_id',$userId)->where('ingatlan_id',$r['ingatlan_id'])->count();
         return  ($darab>=5);
 
     }

@@ -114,7 +114,7 @@ Route::put('api/setcontents/{id}','HtmlContentsController@update');
 Route::post('api/kapcsolat/email','KapcsolatEmailController@sendemail');
 
 //TesztMail
-Route::get('mail','LicitController@sendEmail');
+Route::get('tesztemail','LicitController@sendTesztEmail');
 /*-----------------------------------------CKEDITOR-----------------------------------------*/
 Route::get('api/ckeditor/images/{index}','CkeditorController@listOfImages');
 Route::post('api/ckeditor/fileupload/','CkeditorController@store');
